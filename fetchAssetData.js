@@ -10,10 +10,11 @@ const main = async () => {
     // Log in to MyPlant
     await myPlantClient.login();
 
-    const data = await myPlantClient.fetchAvailableData()
+    const assetId = 159396
+    const data = await myPlantClient.assetGQLData(assetId)
 
     const outputDir = path.join(process.cwd(), 'output');
-    const outputFile = path.join(outputDir, `available-data.json`);
+    const outputFile = path.join(outputDir, `assetGQLData-${assetId}.json`);
     // Save the JSON data to the file
     fs.writeFileSync(outputFile, JSON.stringify(data, null, 4), 'utf-8');
 

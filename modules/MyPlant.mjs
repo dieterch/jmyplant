@@ -135,7 +135,7 @@ class MyPlant {
       );
       // console.log('Viewer Data:', JSON.stringify(response.data,null,4));
       // return response.data
-      return response.data.map(a => reshape(a));
+      return response.data;
     } catch (error) {
       console.error('Failed to fetch asset data:', error.response?.data || error.message);
     }
@@ -217,7 +217,7 @@ class MyPlant {
   }
 
   async fetchAvailableData() {
-    return await this.fetchData('/model/J-Engine')    
+    return await this.fetchData('/model/J-Engine')
   }
 
   async _fetchInstalledBase (fields, properties, dataItems, limit = null) {
