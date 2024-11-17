@@ -1,0 +1,120 @@
+{
+  "data": {
+    "asset": {
+      "serialNumber": "1486144",
+      "dataItems": [
+        {
+          "name": "OperationalCondition",
+          "timestamp": 1731869665567,
+          "id": 1258,
+          "unit": null,
+          "value": "Available"
+        },
+        {
+          "name": "Count_OpHour",
+          "timestamp": 1731865721334,
+          "id": 161,
+          "unit": "h",
+          "value": 2731
+        },
+        {
+          "name": "Count_Start",
+          "timestamp": 1731867630904,
+          "id": 179,
+          "unit": null,
+          "value": 1299
+        },
+        {
+          "name": "Power_PowerNominal",
+          "timestamp": 1727947662118,
+          "id": 19643,
+          "unit": "kW",
+          "value": 4495
+        },
+        {
+          "name": "Para_Speed_Nominal",
+          "timestamp": 1727947631649,
+          "id": 17942,
+          "unit": "rpm",
+          "value": 1500
+        },
+        {
+          "name": "rP_Ramp_Set",
+          "timestamp": 1731867827826,
+          "id": 10009049,
+          "unit": null,
+          "value": 0.72
+        },
+        {
+          "name": "RMD_ListBuffMAvgOilConsume_OilConsumption",
+          "timestamp": 1731866004325,
+          "id": 1001101,
+          "unit": "g/kWh",
+          "value": 0.013
+        }
+      ],
+      "model": "J-Engine",
+      "site": {
+        "id": 181816,
+        "name": "Forsa Hartmoor",
+        "country": "GB"
+      },
+      "id": 159396,
+      "properties": [
+        {
+          "id": 10,
+          "name": "Gas Type",
+          "value": "NG1"
+        },
+        {
+          "id": 11,
+          "name": "Engine Version",
+          "value": "H12"
+        },
+        {
+          "id": 12,
+          "name": "Engine Type",
+          "value": "624"
+        },
+        {
+          "id": 13,
+          "name": "Engine Series",
+          "value": "6"
+        },
+        {
+          "id": 15,
+          "name": "Customer Engine Number",
+          "value": "1"
+        },
+        {
+          "id": 19,
+          "name": "Commissioning Date",
+          "value": "2022-01-11"
+        },
+        {
+          "id": 21,
+          "name": "Design Number",
+          "value": "AL87"
+        },
+        {
+          "id": 23,
+          "name": "Contract.Service Contract Type",
+          "value": ""
+        },
+        {
+          "id": 643,
+          "name": "Engine ID",
+          "value": "M01"
+        }
+      ],
+      "status": {
+        "lastContactDate": 1731877040437,
+        "lastDataFlowDate": 1731877022297
+      },
+      "customer": {
+        "id": 4294976222,
+        "name": "CLARKE ENERGY LTD (UK)"
+      }
+    }
+  }
+}

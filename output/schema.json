@@ -1,0 +1,2277 @@
+{
+    "data": {
+        "__schema": {
+            "types": [
+                {
+                    "name": "_FieldSet",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": null
+                },
+                {
+                    "name": "AggregateType",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "Represents an aggregation type"
+                },
+                {
+                    "name": "Aggregation",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "AggregationResult",
+                    "fields": [
+                        {
+                            "name": "dataItemName"
+                        },
+                        {
+                            "name": "operation"
+                        },
+                        {
+                            "name": "value"
+                        },
+                        {
+                            "name": "count"
+                        },
+                        {
+                            "name": "unit"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Result of an aggregation over current DataItem values"
+                },
+                {
+                    "name": "AlarmResult",
+                    "fields": [
+                        {
+                            "name": "timestamp"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "severity"
+                        },
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "message"
+                        },
+                        {
+                            "name": "isPrimary"
+                        },
+                        {
+                            "name": "associatedValues"
+                        },
+                        {
+                            "name": "criticality"
+                        },
+                        {
+                            "name": "riskCategory"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An Asset Alarm"
+                },
+                {
+                    "name": "AnalyticsCoolantReportCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        },
+                        {
+                            "name": "counts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A paginated collection of analytics coolant reports including a global sample counts"
+                },
+                {
+                    "name": "AnalyticsIssueCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        },
+                        {
+                            "name": "counts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A paginated collection of analytics issues including a global issue counts"
+                },
+                {
+                    "name": "AnalyticsIssueCounts",
+                    "fields": [
+                        {
+                            "name": "stateCounts"
+                        },
+                        {
+                            "name": "monitorCount"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A set of AnalyticsIssueCounts"
+                },
+                {
+                    "name": "AnalyticsOilReportCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        },
+                        {
+                            "name": "counts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A paginated collection of analytics oil reports including a global sample counts"
+                },
+                {
+                    "name": "AnalyticsSampleCounts",
+                    "fields": [
+                        {
+                            "name": "green"
+                        },
+                        {
+                            "name": "yellow"
+                        },
+                        {
+                            "name": "red"
+                        },
+                        {
+                            "name": "unknown"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The set of sample counts for all sorts of Analytics sample reports."
+                },
+                {
+                    "name": "AndOr",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "Allows selection of a logic operator"
+                },
+                {
+                    "name": "AsType",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "Allows selection of sort and filter type for either values"
+                },
+                {
+                    "name": "Asset",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "serialNumber"
+                        },
+                        {
+                            "name": "model"
+                        },
+                        {
+                            "name": "modelId"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "timezone"
+                        },
+                        {
+                            "name": "agentVersion"
+                        },
+                        {
+                            "name": "alternateId"
+                        },
+                        {
+                            "name": "packageLevel"
+                        },
+                        {
+                            "name": "geoLocation"
+                        },
+                        {
+                            "name": "status"
+                        },
+                        {
+                            "name": "gateway"
+                        },
+                        {
+                            "name": "associated"
+                        },
+                        {
+                            "name": "site"
+                        },
+                        {
+                            "name": "customer"
+                        },
+                        {
+                            "name": "properties"
+                        },
+                        {
+                            "name": "dataItems"
+                        },
+                        {
+                            "name": "historicDataItems"
+                        },
+                        {
+                            "name": "kpis"
+                        },
+                        {
+                            "name": "alarms"
+                        },
+                        {
+                            "name": "serviceRequests"
+                        },
+                        {
+                            "name": "serviceNowCases"
+                        },
+                        {
+                            "name": "maintenanceOperationalForecasts"
+                        },
+                        {
+                            "name": "salesforceCases"
+                        },
+                        {
+                            "name": "analyticsIssues"
+                        },
+                        {
+                            "name": "analyticsIssueCounts"
+                        },
+                        {
+                            "name": "analyticsOilReports"
+                        },
+                        {
+                            "name": "analyticsOilReportCounts"
+                        },
+                        {
+                            "name": "analyticsCoolantReports"
+                        },
+                        {
+                            "name": "analyticsCoolantReportCounts"
+                        },
+                        {
+                            "name": "contacts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant Asset"
+                },
+                {
+                    "name": "AssetAlarmsQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "AssetCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        },
+                        {
+                            "name": "aggregates"
+                        },
+                        {
+                            "name": "historicAggregates"
+                        },
+                        {
+                            "name": "kpiAggregates"
+                        },
+                        {
+                            "name": "salesforceCases"
+                        },
+                        {
+                            "name": "analyticsIssues"
+                        },
+                        {
+                            "name": "analyticsIssueCounts"
+                        },
+                        {
+                            "name": "analyticsOilReports"
+                        },
+                        {
+                            "name": "analyticsOilReportCounts"
+                        },
+                        {
+                            "name": "analyticsCoolantReports"
+                        },
+                        {
+                            "name": "analyticsCoolantReportCounts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A collection of myPlant Assets"
+                },
+                {
+                    "name": "AssetGateway",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "serialNumber"
+                        },
+                        {
+                            "name": "remote"
+                        },
+                        {
+                            "name": "asset"
+                        },
+                        {
+                            "name": "assets"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The Gateway with remote connections of an Asset"
+                },
+                {
+                    "name": "AssetPackageSubscription",
+                    "fields": [
+                        {
+                            "name": "orgId"
+                        },
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "packageLevel"
+                        },
+                        {
+                            "name": "startDate"
+                        },
+                        {
+                            "name": "endDate"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The AssetPackageSubscription available for an Organization"
+                },
+                {
+                    "name": "AssetPackageSubscriptionQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "AssetProperty",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "value"
+                        },
+                        {
+                            "name": "assetId"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An Asset property"
+                },
+                {
+                    "name": "AssetRemoteConnection",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "restricted"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An Asset remote connection option"
+                },
+                {
+                    "name": "AssetStatus",
+                    "fields": [
+                        {
+                            "name": "registrationDate"
+                        },
+                        {
+                            "name": "lastContactDate"
+                        },
+                        {
+                            "name": "lastDataFlowDate"
+                        },
+                        {
+                            "name": "activeConnection"
+                        },
+                        {
+                            "name": "condition"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The current connection status of an Asset"
+                },
+                {
+                    "name": "AssociatedValue",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Associated value of an AlarmEvent"
+                },
+                {
+                    "name": "Compare",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "Allows selection of a comparison operator"
+                },
+                {
+                    "name": "Contact",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "userId"
+                        },
+                        {
+                            "name": "firstName"
+                        },
+                        {
+                            "name": "lastName"
+                        },
+                        {
+                            "name": "label"
+                        },
+                        {
+                            "name": "email"
+                        },
+                        {
+                            "name": "phoneNumber"
+                        },
+                        {
+                            "name": "organizationId"
+                        },
+                        {
+                            "name": "created"
+                        },
+                        {
+                            "name": "lastModified"
+                        },
+                        {
+                            "name": "modifiedBy"
+                        },
+                        {
+                            "name": "externalId"
+                        },
+                        {
+                            "name": "sourceSystemId"
+                        },
+                        {
+                            "name": "appDeviceTokens"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant Contact"
+                },
+                {
+                    "name": "ContactMetadata",
+                    "fields": [
+                        {
+                            "name": "test"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "CoolantSampleReport",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "provider"
+                        },
+                        {
+                            "name": "sampleId"
+                        },
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "dateTaken"
+                        },
+                        {
+                            "name": "serialNumber"
+                        },
+                        {
+                            "name": "customerReference"
+                        },
+                        {
+                            "name": "coolantName"
+                        },
+                        {
+                            "name": "unitHours"
+                        },
+                        {
+                            "name": "condition"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A PA CoolantSampleReport"
+                },
+                {
+                    "name": "Customer",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "assets"
+                        },
+                        {
+                            "name": "sites"
+                        },
+                        {
+                            "name": "contacts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant customer"
+                },
+                {
+                    "name": "CustomerCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A collection of myPlant Customers"
+                },
+                {
+                    "name": "DataItem",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "timestamp"
+                        },
+                        {
+                            "name": "value"
+                        },
+                        {
+                            "name": "unit"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant data item"
+                },
+                {
+                    "name": "DeviceToken",
+                    "fields": [
+                        {
+                            "name": "appId"
+                        },
+                        {
+                            "name": "tokens"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Set of device tokens for an appId"
+                },
+                {
+                    "name": "EntityContact",
+                    "fields": [
+                        {
+                            "name": "targetId"
+                        },
+                        {
+                            "name": "relationshipType"
+                        },
+                        {
+                            "name": "relationshipTypeOrganization"
+                        },
+                        {
+                            "name": "relationshipOrganization"
+                        },
+                        {
+                            "name": "displayName"
+                        },
+                        {
+                            "name": "metadata"
+                        },
+                        {
+                            "name": "public"
+                        },
+                        {
+                            "name": "restricted"
+                        },
+                        {
+                            "name": "contact"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A contact related to some entity"
+                },
+                {
+                    "name": "EntityContactQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Allows filtering entity related contacts"
+                },
+                {
+                    "name": "FilterInfo",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "op"
+                        },
+                        {
+                            "name": "value"
+                        },
+                        {
+                            "name": "comb"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The filter options of a collection query"
+                },
+                {
+                    "name": "FilterMetaOptions",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "FilterOption",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "GeoLocation",
+                    "fields": [
+                        {
+                            "name": "lat"
+                        },
+                        {
+                            "name": "lon"
+                        },
+                        {
+                            "name": "alt"
+                        },
+                        {
+                            "name": "timestamp"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A GeoLocation object with lat and lon"
+                },
+                {
+                    "name": "HistoricAggregation",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "HistoricAggregationResult",
+                    "fields": [
+                        {
+                            "name": "dataItemName"
+                        },
+                        {
+                            "name": "operation"
+                        },
+                        {
+                            "name": "values"
+                        },
+                        {
+                            "name": "count"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Result of an aggregation over historic DataItem values"
+                },
+                {
+                    "name": "HistoricDataItem",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "from"
+                        },
+                        {
+                            "name": "to"
+                        },
+                        {
+                            "name": "resolution"
+                        },
+                        {
+                            "name": "values"
+                        },
+                        {
+                            "name": "aggregatedValue"
+                        },
+                        {
+                            "name": "aggregatedCount"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant historic data item result"
+                },
+                {
+                    "name": "HistoricDataItemQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "IssueCountsFilterQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "IssueFilterQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "IssueStateCount",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "count"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A PA IssueStateCount"
+                },
+                {
+                    "name": "ListFilter",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Allows a flexible filter on list queries."
+                },
+                {
+                    "name": "MaintenanceOperationalForecast",
+                    "fields": [
+                        {
+                            "name": "oph"
+                        },
+                        {
+                            "name": "st"
+                        },
+                        {
+                            "name": "timestamp"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The maintenance operational forecasts for given query"
+                },
+                {
+                    "name": "MaintenanceOperationalForecastQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "Modifier",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "Allows to modify the compare operation of a list filter"
+                },
+                {
+                    "name": "OilSampleReport",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "provider"
+                        },
+                        {
+                            "name": "sampleId"
+                        },
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "dateTaken"
+                        },
+                        {
+                            "name": "serialNumber"
+                        },
+                        {
+                            "name": "customerReference"
+                        },
+                        {
+                            "name": "oilName"
+                        },
+                        {
+                            "name": "oilHours"
+                        },
+                        {
+                            "name": "unitHours"
+                        },
+                        {
+                            "name": "condition"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A PA OilSampleReport"
+                },
+                {
+                    "name": "OrderBy",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "Allows selection of an order direction"
+                },
+                {
+                    "name": "OrderInfo",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "order"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The filter options of a collection query"
+                },
+                {
+                    "name": "OrderMetaOptions",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "OrderOption",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "Organization",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "adminUsername"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "address"
+                        },
+                        {
+                            "name": "xtGroupNumber"
+                        },
+                        {
+                            "name": "childXtGroups"
+                        },
+                        {
+                            "name": "paMaturityLevel"
+                        },
+                        {
+                            "name": "parentAssetGroupId"
+                        },
+                        {
+                            "name": "groupType"
+                        },
+                        {
+                            "name": "groupActive"
+                        },
+                        {
+                            "name": "deactivationDate"
+                        },
+                        {
+                            "name": "packageInfo"
+                        },
+                        {
+                            "name": "assets"
+                        },
+                        {
+                            "name": "assetPackages"
+                        },
+                        {
+                            "name": "contacts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant Organization"
+                },
+                {
+                    "name": "OrganizationCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A collection of myPlant Organizations"
+                },
+                {
+                    "name": "OrganizationPackageInfo",
+                    "fields": [
+                        {
+                            "name": "packageValidFrom"
+                        },
+                        {
+                            "name": "packageValidTo"
+                        },
+                        {
+                            "name": "packageLevel"
+                        },
+                        {
+                            "name": "assetPackageLevel"
+                        },
+                        {
+                            "name": "trialPackageValidFrom"
+                        },
+                        {
+                            "name": "trialPackageValidTo"
+                        },
+                        {
+                            "name": "trialPackageLevel"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The OrganizationPackage info"
+                },
+                {
+                    "name": "PaDataItemAssociation",
+                    "fields": [
+                        {
+                            "name": "dataItemId"
+                        },
+                        {
+                            "name": "marginUpper"
+                        },
+                        {
+                            "name": "marginLower"
+                        },
+                        {
+                            "name": "unit"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A PA data item association"
+                },
+                {
+                    "name": "PaIssue",
+                    "fields": [
+                        {
+                            "name": "issueId"
+                        },
+                        {
+                            "name": "analyticsItemId"
+                        },
+                        {
+                            "name": "analyticsItemName"
+                        },
+                        {
+                            "name": "componentId"
+                        },
+                        {
+                            "name": "componentName"
+                        },
+                        {
+                            "name": "stateId"
+                        },
+                        {
+                            "name": "stateName"
+                        },
+                        {
+                            "name": "stateTime"
+                        },
+                        {
+                            "name": "stateIdOnSite"
+                        },
+                        {
+                            "name": "stateNameOnSite"
+                        },
+                        {
+                            "name": "stateTimeOnSite"
+                        },
+                        {
+                            "name": "lastSso"
+                        },
+                        {
+                            "name": "typeId"
+                        },
+                        {
+                            "name": "typeName"
+                        },
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "alarmId"
+                        },
+                        {
+                            "name": "time"
+                        },
+                        {
+                            "name": "srNumber"
+                        },
+                        {
+                            "name": "notes"
+                        },
+                        {
+                            "name": "maturityLevel"
+                        },
+                        {
+                            "name": "timeToServe"
+                        },
+                        {
+                            "name": "timeToClosure"
+                        },
+                        {
+                            "name": "timespanBefore"
+                        },
+                        {
+                            "name": "timespanAfter"
+                        },
+                        {
+                            "name": "chartType"
+                        },
+                        {
+                            "name": "associations"
+                        },
+                        {
+                            "name": "verticalLines"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A PA Issue"
+                },
+                {
+                    "name": "PaPageInfo",
+                    "fields": [
+                        {
+                            "name": "count"
+                        },
+                        {
+                            "name": "limit"
+                        },
+                        {
+                            "name": "offset"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Pagination data of a PA page query"
+                },
+                {
+                    "name": "PaVerticalLine",
+                    "fields": [
+                        {
+                            "name": "timestamp"
+                        },
+                        {
+                            "name": "color"
+                        },
+                        {
+                            "name": "text"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A PA vertical line"
+                },
+                {
+                    "name": "PageInfo",
+                    "fields": [
+                        {
+                            "name": "offset"
+                        },
+                        {
+                            "name": "limit"
+                        },
+                        {
+                            "name": "count"
+                        },
+                        {
+                            "name": "filters"
+                        },
+                        {
+                            "name": "orderBy"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Information for pagination support on collections"
+                },
+                {
+                    "name": "Query",
+                    "fields": [
+                        {
+                            "name": "sites"
+                        },
+                        {
+                            "name": "site"
+                        },
+                        {
+                            "name": "assets"
+                        },
+                        {
+                            "name": "asset"
+                        },
+                        {
+                            "name": "region"
+                        },
+                        {
+                            "name": "regions"
+                        },
+                        {
+                            "name": "customer"
+                        },
+                        {
+                            "name": "customers"
+                        },
+                        {
+                            "name": "serviceNowCases"
+                        },
+                        {
+                            "name": "organization"
+                        },
+                        {
+                            "name": "organizations"
+                        },
+                        {
+                            "name": "users"
+                        },
+                        {
+                            "name": "assetModel"
+                        },
+                        {
+                            "name": "assetModels"
+                        },
+                        {
+                            "name": "unitOfMeasure"
+                        },
+                        {
+                            "name": "unitsOfMeasure"
+                        },
+                        {
+                            "name": "modelDataItem"
+                        },
+                        {
+                            "name": "modelDataItems"
+                        },
+                        {
+                            "name": "modelDataItemGroup"
+                        },
+                        {
+                            "name": "modelDataItemGroups"
+                        },
+                        {
+                            "name": "modelProperty"
+                        },
+                        {
+                            "name": "modelProperties"
+                        },
+                        {
+                            "name": "_service"
+                        },
+                        {
+                            "name": "_entities"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "RangedAggregationSubQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "Region",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "parentId"
+                        },
+                        {
+                            "name": "regionAssetId"
+                        },
+                        {
+                            "name": "parentRegion"
+                        },
+                        {
+                            "name": "regionAsset"
+                        },
+                        {
+                            "name": "assets"
+                        },
+                        {
+                            "name": "sites"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant region"
+                },
+                {
+                    "name": "RegionCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A collection of myPlant Regions"
+                },
+                {
+                    "name": "RelationshipTarget",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "A unique identifier for an entity to which Contacts can be assigned"
+                },
+                {
+                    "name": "ReliabilityQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "ReliabilityResult",
+                    "fields": [
+                        {
+                            "name": "kpi"
+                        },
+                        {
+                            "name": "from"
+                        },
+                        {
+                            "name": "to"
+                        },
+                        {
+                            "name": "resolution"
+                        },
+                        {
+                            "name": "operation"
+                        },
+                        {
+                            "name": "values"
+                        },
+                        {
+                            "name": "value"
+                        },
+                        {
+                            "name": "count"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The result of a Reliability query"
+                },
+                {
+                    "name": "ReportCountsFilterQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "ReportFilterQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "SalesforceCaseComment",
+                    "fields": [
+                        {
+                            "name": "commentBody"
+                        },
+                        {
+                            "name": "isDeleted"
+                        },
+                        {
+                            "name": "isPublished"
+                        },
+                        {
+                            "name": "createdDate"
+                        },
+                        {
+                            "name": "lastModifiedDate"
+                        },
+                        {
+                            "name": "createdBy"
+                        },
+                        {
+                            "name": "lastModifiedBy"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The SalesforceCaseComments available for on a case"
+                },
+                {
+                    "name": "SalesforceCaseDetails",
+                    "fields": [
+                        {
+                            "name": "caseId"
+                        },
+                        {
+                            "name": "caseTitle"
+                        },
+                        {
+                            "name": "status"
+                        },
+                        {
+                            "name": "recommendedActionTaken"
+                        },
+                        {
+                            "name": "caseType"
+                        },
+                        {
+                            "name": "dateIncidentOccurred"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "unitDown"
+                        },
+                        {
+                            "name": "assetSerialNumber"
+                        },
+                        {
+                            "name": "caseComments"
+                        },
+                        {
+                            "name": "histories"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The SalesforceCaseDetails available for an Asset"
+                },
+                {
+                    "name": "SalesforceCaseHistory",
+                    "fields": [
+                        {
+                            "name": "field"
+                        },
+                        {
+                            "name": "oldValue"
+                        },
+                        {
+                            "name": "newValue"
+                        },
+                        {
+                            "name": "isDeleted"
+                        },
+                        {
+                            "name": "createdDate"
+                        },
+                        {
+                            "name": "createdBy"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The SalesforceCaseHistory available for on a case"
+                },
+                {
+                    "name": "SalesforceCaseQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "ServiceNowCase",
+                    "fields": [
+                        {
+                            "name": "assetId"
+                        },
+                        {
+                            "name": "caseTitle"
+                        },
+                        {
+                            "name": "dateIncidentOccurred"
+                        },
+                        {
+                            "name": "updatedOn"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "stepsTaken"
+                        },
+                        {
+                            "name": "desiredDeliverable"
+                        },
+                        {
+                            "name": "businessSegment"
+                        },
+                        {
+                            "name": "caseType"
+                        },
+                        {
+                            "name": "whoBroughtIssue"
+                        },
+                        {
+                            "name": "assignmentGroup"
+                        },
+                        {
+                            "name": "issueCodeLevel1"
+                        },
+                        {
+                            "name": "issueCodeLevel2"
+                        },
+                        {
+                            "name": "issueCodeLevel3"
+                        },
+                        {
+                            "name": "xt4Failure"
+                        },
+                        {
+                            "name": "unplanned_eng_removal"
+                        },
+                        {
+                            "name": "unitDown"
+                        },
+                        {
+                            "name": "productSafetyConcern"
+                        },
+                        {
+                            "name": "submitter"
+                        },
+                        {
+                            "name": "status"
+                        },
+                        {
+                            "name": "serviceNowSerialNumber"
+                        },
+                        {
+                            "name": "serviceNowUnitSerialNumber"
+                        },
+                        {
+                            "name": "partyOwnerNumber"
+                        },
+                        {
+                            "name": "dpirNumber"
+                        },
+                        {
+                            "name": "assetSerialNumber"
+                        },
+                        {
+                            "name": "assetModel"
+                        },
+                        {
+                            "name": "recommendedAction"
+                        },
+                        {
+                            "name": "dateOutOfService"
+                        },
+                        {
+                            "name": "oracleSrNo"
+                        },
+                        {
+                            "name": "comments"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A ServiceNow case"
+                },
+                {
+                    "name": "ServiceNowCaseComment",
+                    "fields": [
+                        {
+                            "name": "timestamp"
+                        },
+                        {
+                            "name": "createdBy"
+                        },
+                        {
+                            "name": "text"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A ServiceNow case comment"
+                },
+                {
+                    "name": "ServiceNowCaseQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "ServiceRequest",
+                    "fields": [
+                        {
+                            "name": "number"
+                        },
+                        {
+                            "name": "type"
+                        },
+                        {
+                            "name": "subType"
+                        },
+                        {
+                            "name": "status"
+                        },
+                        {
+                            "name": "statusMapped"
+                        },
+                        {
+                            "name": "sr_owner"
+                        },
+                        {
+                            "name": "groupOwner"
+                        },
+                        {
+                            "name": "csa"
+                        },
+                        {
+                            "name": "region"
+                        },
+                        {
+                            "name": "reported"
+                        },
+                        {
+                            "name": "incident"
+                        },
+                        {
+                            "name": "resolutionBy"
+                        },
+                        {
+                            "name": "daysLate"
+                        },
+                        {
+                            "name": "agingBucket"
+                        },
+                        {
+                            "name": "resolvedOn"
+                        },
+                        {
+                            "name": "createdOn"
+                        },
+                        {
+                            "name": "closedOn"
+                        },
+                        {
+                            "name": "customerName"
+                        },
+                        {
+                            "name": "customerNumber"
+                        },
+                        {
+                            "name": "customerCountry"
+                        },
+                        {
+                            "name": "siteName"
+                        },
+                        {
+                            "name": "serialNumber"
+                        },
+                        {
+                            "name": "designNumber"
+                        },
+                        {
+                            "name": "installBaseCountry"
+                        },
+                        {
+                            "name": "territoryCode"
+                        },
+                        {
+                            "name": "postalCode"
+                        },
+                        {
+                            "name": "customerProductId"
+                        },
+                        {
+                            "name": "problemSummary"
+                        },
+                        {
+                            "name": "resolutionSummary"
+                        },
+                        {
+                            "name": "levelsInvolved"
+                        },
+                        {
+                            "name": "escalationLevel"
+                        },
+                        {
+                            "name": "vtwServiceRequest"
+                        },
+                        {
+                            "name": "failureTreeLevel1"
+                        },
+                        {
+                            "name": "failureTreeLevel2"
+                        },
+                        {
+                            "name": "failureTreeLevel3"
+                        },
+                        {
+                            "name": "severity"
+                        },
+                        {
+                            "name": "channel"
+                        },
+                        {
+                            "name": "urgency"
+                        },
+                        {
+                            "name": "commissioningDate"
+                        },
+                        {
+                            "name": "rcaNcaNumber"
+                        },
+                        {
+                            "name": "enginetype"
+                        },
+                        {
+                            "name": "loggedBy"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The ServiceRequest available for an Asset"
+                },
+                {
+                    "name": "ServiceRequestQuery",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "SeshatAssetModel",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "dataItems"
+                        },
+                        {
+                            "name": "dataItemGroups"
+                        },
+                        {
+                            "name": "properties"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An asset model definition."
+                },
+                {
+                    "name": "SeshatDataItem",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "modelId"
+                        },
+                        {
+                            "name": "unitId"
+                        },
+                        {
+                            "name": "dataItemType"
+                        },
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unit"
+                        },
+                        {
+                            "name": "model"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An asset data item definition."
+                },
+                {
+                    "name": "SeshatDataItemFilter",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Filter options for SeshatDataItem queries."
+                },
+                {
+                    "name": "SeshatDataItemGroup",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "modelId"
+                        },
+                        {
+                            "name": "dataItemIds"
+                        },
+                        {
+                            "name": "dataItems"
+                        },
+                        {
+                            "name": "model"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An asset data item group."
+                },
+                {
+                    "name": "SeshatDataItemGroupFilter",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Filter options for dataitem groups queries."
+                },
+                {
+                    "name": "SeshatDataSourceType",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "The data source an entity is derived from"
+                },
+                {
+                    "name": "SeshatDeviceFilter",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Filter options for asset model queries."
+                },
+                {
+                    "name": "SeshatModelProperty",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "modelId"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "model"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "An asset property definition."
+                },
+                {
+                    "name": "SeshatModelPropertyFilter",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Filter options for model property list queries."
+                },
+                {
+                    "name": "SeshatUnitOfMeasure",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "source"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A data item unit definition."
+                },
+                {
+                    "name": "SeshatUnitOfMeasureFilter",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": "Filter options for Unit queries."
+                },
+                {
+                    "name": "Site",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "city"
+                        },
+                        {
+                            "name": "zip"
+                        },
+                        {
+                            "name": "country"
+                        },
+                        {
+                            "name": "state"
+                        },
+                        {
+                            "name": "address1"
+                        },
+                        {
+                            "name": "address2"
+                        },
+                        {
+                            "name": "siteType"
+                        },
+                        {
+                            "name": "siteAssetId"
+                        },
+                        {
+                            "name": "regionId"
+                        },
+                        {
+                            "name": "customerId"
+                        },
+                        {
+                            "name": "ibSiteId"
+                        },
+                        {
+                            "name": "geoLocation"
+                        },
+                        {
+                            "name": "customer"
+                        },
+                        {
+                            "name": "siteAsset"
+                        },
+                        {
+                            "name": "region"
+                        },
+                        {
+                            "name": "assets"
+                        },
+                        {
+                            "name": "contacts"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant Site"
+                },
+                {
+                    "name": "SiteCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A collection of myPlant Sites"
+                },
+                {
+                    "name": "StringOrDouble",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": "The `StringOrFloat` type represents either a string value or a `Double`"
+                },
+                {
+                    "name": "SubQueryFilterOption",
+                    "fields": null,
+                    "kind": "INPUT_OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "TargetEntityId",
+                    "fields": [
+                        {
+                            "name": "targetType"
+                        },
+                        {
+                            "name": "id"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Unique identifier for some entity with some unique id"
+                },
+                {
+                    "name": "User",
+                    "fields": [
+                        {
+                            "name": "username"
+                        },
+                        {
+                            "name": "email"
+                        },
+                        {
+                            "name": "fullName"
+                        },
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "isAdmin"
+                        },
+                        {
+                            "name": "created"
+                        },
+                        {
+                            "name": "lastLogon"
+                        },
+                        {
+                            "name": "oracleId"
+                        },
+                        {
+                            "name": "paMaturityLevel"
+                        },
+                        {
+                            "name": "organization"
+                        },
+                        {
+                            "name": "ssoUser"
+                        },
+                        {
+                            "name": "xtUsername"
+                        },
+                        {
+                            "name": "xtGroup"
+                        },
+                        {
+                            "name": "xtLevel"
+                        },
+                        {
+                            "name": "xt4Roles"
+                        },
+                        {
+                            "name": "xtActive"
+                        },
+                        {
+                            "name": "xtGroupNumber"
+                        },
+                        {
+                            "name": "xtBlockTemporaryPassword"
+                        },
+                        {
+                            "name": "visRole"
+                        },
+                        {
+                            "name": "daAdmin"
+                        },
+                        {
+                            "name": "parentOrgId"
+                        },
+                        {
+                            "name": "roles"
+                        },
+                        {
+                            "name": "applicationRole"
+                        },
+                        {
+                            "name": "groups"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A myPlant User"
+                },
+                {
+                    "name": "UserGroup",
+                    "fields": [
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": " A user functional group"
+                },
+                {
+                    "name": "UsersCollection",
+                    "fields": [
+                        {
+                            "name": "items"
+                        },
+                        {
+                            "name": "pageInfo"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A collection of myPlant Users"
+                },
+                {
+                    "name": "_Any",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": null
+                },
+                {
+                    "name": "_Entity",
+                    "fields": null,
+                    "kind": "UNION",
+                    "description": null
+                },
+                {
+                    "name": "_Service",
+                    "fields": [
+                        {
+                            "name": "sdl"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": null
+                },
+                {
+                    "name": "__Directive",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "locations"
+                        },
+                        {
+                            "name": "args"
+                        },
+                        {
+                            "name": "isRepeatable"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A Directive provides a way to describe alternate runtime execution and type validation behavior in a GraphQL document.\n\nIn some cases, you need to provide options to alter GraphQL’s execution behavior in ways field arguments will not suffice, such as conditionally including or skipping a field. Directives provide this by describing additional information to the executor."
+                },
+                {
+                    "name": "__DirectiveLocation",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "A Directive can be adjacent to many parts of the GraphQL language, a __DirectiveLocation describes one such possible adjacencies."
+                },
+                {
+                    "name": "__EnumValue",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "isDeprecated"
+                        },
+                        {
+                            "name": "deprecationReason"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "One possible value for a given Enum. Enum values are unique values, not a placeholder for a string or numeric value. However an Enum value is returned in a JSON response as a string."
+                },
+                {
+                    "name": "__Field",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "args"
+                        },
+                        {
+                            "name": "type"
+                        },
+                        {
+                            "name": "isDeprecated"
+                        },
+                        {
+                            "name": "deprecationReason"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Object and Interface types are described by a list of Fields, each of which has a name, potentially a list of arguments, and a return type."
+                },
+                {
+                    "name": "__InputValue",
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "type"
+                        },
+                        {
+                            "name": "defaultValue"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "Arguments provided to Fields or Directives and the input fields of an InputObject are represented as Input Values which describe their type and optionally a default value."
+                },
+                {
+                    "name": "__Schema",
+                    "fields": [
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "types"
+                        },
+                        {
+                            "name": "queryType"
+                        },
+                        {
+                            "name": "mutationType"
+                        },
+                        {
+                            "name": "subscriptionType"
+                        },
+                        {
+                            "name": "directives"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "A GraphQL Schema defines the capabilities of a GraphQL server. It exposes all available types and directives on the server, as well as the entry points for query, mutation, and subscription operations."
+                },
+                {
+                    "name": "__Type",
+                    "fields": [
+                        {
+                            "name": "kind"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "fields"
+                        },
+                        {
+                            "name": "interfaces"
+                        },
+                        {
+                            "name": "possibleTypes"
+                        },
+                        {
+                            "name": "enumValues"
+                        },
+                        {
+                            "name": "inputFields"
+                        },
+                        {
+                            "name": "ofType"
+                        }
+                    ],
+                    "kind": "OBJECT",
+                    "description": "The fundamental unit of any GraphQL Schema is the type. There are many kinds of types in GraphQL as represented by the `__TypeKind` enum.\n\nDepending on the kind of a type, certain fields describe information about that type. Scalar types provide no information beyond a name and description, while Enum types provide their values. Object and Interface types provide the fields they describe. Abstract types, Union and Interface, provide the Object types possible at runtime. List and NonNull types compose other types."
+                },
+                {
+                    "name": "__TypeKind",
+                    "fields": null,
+                    "kind": "ENUM",
+                    "description": "An enum describing what kind of type a given `__Type` is."
+                },
+                {
+                    "name": "Boolean",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": "The `Boolean` scalar type represents `true` or `false`."
+                },
+                {
+                    "name": "Float",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": "The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754)."
+                },
+                {
+                    "name": "Int",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": "The `Int` scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1."
+                },
+                {
+                    "name": "Long",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": "The `Long` scalar type represents non-fractional signed whole numeric values. Long can represent values between -(2^63) and 2^63 - 1."
+                },
+                {
+                    "name": "String",
+                    "fields": null,
+                    "kind": "SCALAR",
+                    "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text."
+                }
+            ]
+        }
+    }
+}

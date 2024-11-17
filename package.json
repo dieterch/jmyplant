@@ -1,0 +1,24 @@
+{
+    "name": "myplant-client",
+    "version": "1.0.0",
+    "description": "Client library for interacting with MyPlant API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"No tests specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.5.0",
+        "dotenv": "^16.1.0",
+        "graphql-request": "^7.1.2",
+        "http": "0.0.1-security",
+        "totp-generator": "^1.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.51.0"
+    }
+}
