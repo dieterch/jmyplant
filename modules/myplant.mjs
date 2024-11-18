@@ -1,4 +1,3 @@
-import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 import { TOTP } from 'totp-generator';
@@ -19,19 +18,23 @@ class MyPlant {
     };
     this._apiurl = process.env.MYPLANT_API_URL
     this._retries = process.env.MYPLANT_API_RETRIES
+    this._appuserToken = null;
+    this._token = null;
 
     if (!this._cred.name || !this._cred.password || !this._cred.totp_secret) {
       throw new Error('Error: Missing MyPlant credentials in .env file');
     }
-
-    (async () => {
-      if (!(await haveInternet())) {
-        throw new Error('Error, Check Internet Connection!');
-      } 
-      this._appuserToken = null;
-      this._token = null;
-    })();
   }
+
+  // Static async factory method
+  static async create() {
+    const instance = new MyPlant();
+    if (!(await haveInternet())) {
+      throw new Error('Error, Check Internet Connection!');
+    }
+    return instance;
+  }
+
 
   gdi(ds, subKey, dataItemName) {
     if (subKey === 'nokey') {
@@ -43,51 +46,67 @@ class MyPlant {
       .map((item) => item.value);
     return local.length > 0 ? local.pop() : null;
   }
-
+  
   async login() {
     if (!MyPlant._session) {
       MyPlant._session = axios.create();
-      const headers = { 'Content-Type': 'application/json' };
-      const body = {
-        username: this._cred.name,
-        password: this._cred.password
-      };
-      const totpSecret = this._cred.totp_secret;
-      for (let i = 0; i < this._retries; i++) {
-          try {
-            const response = await MyPlant._session.post(
-              `https://${this._apiurl}/auth`,
-              body,
-              { headers }
-            ); }
-          catch ( answer ) {
-            if (answer.status == 499) {
-              const { otp } = TOTP.generate(totpSecret);
-              const totpCode = otp;
-    
-              const bodyMfa = {
-                username: body.username,
-                challenge: answer.response.data.challenge,
-                otp: totpCode
-              };
-    
-              const mfaResponse = await MyPlant._session.post(
-                `https://${this._apiurl}/auth/mfa/totp/confirmation`,
-                bodyMfa,
-                { headers }
-              );
-              if (mfaResponse.status === 200) {
-                this._token = mfaResponse.data.token;
-                this._appuserToken = this._token;
-                return;
-              }
-            } else {
-              throw new Error('Axios 2 FA failed.');
-            }
-          } 
-        } 
     }
-  }
+  
+    const headers = { 'Content-Type': 'application/json' };
+    const body = {
+      username: this._cred.name,
+      password: this._cred.password,
+    };
+    const totpSecret = this._cred.totp_secret;
+  
+    // console.log('Attempting login request...');
+  
+    for (let i = 0; i < this._retries; i++) {
+      try {
+        const response = await MyPlant._session.post(
+          `https://${this._apiurl}/auth`,
+          body,
+          { headers }
+        );
+        this._token = response.data.token;
+        this._appuserToken = this._token;
+        // console.log('Login successful:', response.data);
+        return;
+      } 
+      catch (answer) {
+        if (answer.response?.status === 401) {
+          // cnsole.error('Invalid credentials:', answer.response.data.error);
+          throw new Error('Unauthorized');
+        }
+        if (answer.response?.status === 499) {
+          const { otp } = TOTP.generate(totpSecret);
+          const totpCode = otp;
+      
+          const bodyMfa = {
+            username: body.username,
+            challenge: answer.response.data.challenge,
+            otp: totpCode,
+          };
+      
+          const mfaResponse = await MyPlant._session.post(
+            `https://${this._apiurl}/auth/mfa/totp/confirmation`,
+            bodyMfa,
+            { headers }
+          );
+      
+          if (mfaResponse?.data?.token) {
+            this._token = mfaResponse.data.token;
+            this._appuserToken = this._token;
+            // console.log('2FA successful:', mfaResponse.data);
+            return;
+          }
+        }
+        // cnsole.error('Login failed:', answer.response || answer.message);
+        throw new Error('Axios 2FA failed.');
+      } 
+      }
+    }
+  
 
   get appToken() {
     return this._appuserToken;
@@ -114,7 +133,7 @@ class MyPlant {
         console.error(`Request failed: ${err}`);
         retries++;
         if (retries <= numRetries) {
-          await new Promise((res) => setTimeout(res, 5000));
+          await new Promise((res) => setTimeout(res, 500));
         } else {
           throw new Error(`Failed to fetch data from ${url} after ${numRetries} attempts`);
         }

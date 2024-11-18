@@ -6,8 +6,7 @@ import { assetData } from '../modules/asset.mjs'
 const main = async () => {
   try {
     // Initialize the MyPlant client
-    const mp = new MyPlant();
-
+    const mp = await MyPlant.create();
     // Log in to MyPlant
     await mp.login();
 

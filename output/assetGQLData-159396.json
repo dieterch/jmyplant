@@ -5,24 +5,24 @@
             "dataItems": [
                 {
                     "name": "OperationalCondition",
-                    "timestamp": 1731919584469,
+                    "timestamp": 1731956906527,
                     "id": 1258,
                     "unit": null,
                     "value": "Available"
                 },
                 {
                     "name": "Count_OpHour",
-                    "timestamp": 1731919132708,
+                    "timestamp": 1731954390900,
                     "id": 161,
                     "unit": "h",
-                    "value": 2733
+                    "value": 2735
                 },
                 {
                     "name": "Count_Start",
-                    "timestamp": 1731914867116,
+                    "timestamp": 1731955272794,
                     "id": 179,
                     "unit": null,
-                    "value": 1300
+                    "value": 1304
                 },
                 {
                     "name": "Power_PowerNominal",
@@ -40,14 +40,14 @@
                 },
                 {
                     "name": "rP_Ramp_Set",
-                    "timestamp": 1731915045259,
+                    "timestamp": 1731955488916,
                     "id": 10009049,
                     "unit": null,
                     "value": 0.72
                 },
                 {
                     "name": "RMD_ListBuffMAvgOilConsume_OilConsumption",
-                    "timestamp": 1731866004325,
+                    "timestamp": 1731953600057,
                     "id": 1001101,
                     "unit": "g/kWh",
                     "value": 0.013
@@ -108,8 +108,8 @@
                 }
             ],
             "status": {
-                "lastContactDate": 1731934400433,
-                "lastDataFlowDate": 1731934382288
+                "lastContactDate": 1731958070433,
+                "lastDataFlowDate": 1731958082327
             },
             "customer": {
                 "id": 4294976222,

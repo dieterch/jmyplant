@@ -106,16 +106,16 @@
         {
             "id": 205,
             "name": "Monic_VoltCyl23",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
         {
             "id": 45,
             "name": "Exhaust_TempCyl17",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 59
+            "value": 216
         },
         {
             "id": 10008447,
@@ -127,8 +127,8 @@
         {
             "id": 10045523,
             "name": "out_ha_rf_mmd_synch2_1",
-            "timestamp": 1731935956672,
-            "value": 49.94
+            "timestamp": 1731958069943,
+            "value": 49.93
         },
         {
             "id": 18703,
@@ -352,9 +352,9 @@
         {
             "id": 10050967,
             "name": "CtrModule_Ctr22_X",
-            "timestamp": 1731935660433,
+            "timestamp": 1731958068028,
             "unit": "",
-            "value": 37.4
+            "value": 74.6
         },
         {
             "id": 10055166,
@@ -366,7 +366,7 @@
         {
             "id": 98,
             "name": "Monic_VoltCyl15",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956838873,
             "unit": "kV",
             "value": 0
         },
@@ -387,9 +387,9 @@
         {
             "id": 10050996,
             "name": "CtrModule_Ctr17_Error",
-            "timestamp": 1731935955226,
+            "timestamp": 1731958055528,
             "unit": "",
-            "value": -16.3
+            "value": -15.4
         },
         {
             "id": 20385,
@@ -407,21 +407,21 @@
         {
             "id": 10049246,
             "name": "safi_win4_12",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
         {
             "id": 16562,
             "name": "Knock_KLS98_Knock_Cyl16",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837561,
             "unit": "mV",
             "value": 0
         },
         {
             "id": 10050133,
             "name": "safi_iu_safi_win4_4",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -489,8 +489,8 @@
         {
             "id": 20228,
             "name": "Ignition_SAFI_OpHours3",
-            "timestamp": 1731919324236,
-            "value": 2780.5
+            "timestamp": 1731956644279,
+            "value": 2783
         },
         {
             "id": 10054919,
@@ -515,8 +515,8 @@
         {
             "id": 113,
             "name": "CtrModule_Ctr10_X",
-            "timestamp": 1731935687176,
-            "value": 35.7
+            "timestamp": 1731958050272,
+            "value": 23.6
         },
         {
             "id": 19207,
@@ -535,14 +535,14 @@
         {
             "id": 34,
             "name": "Exhaust_TempCyl09",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 63
+            "value": 209
         },
         {
             "id": 10049222,
             "name": "safi_win3_12",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -676,7 +676,7 @@
         {
             "id": 10050110,
             "name": "safi_iu_safi_win3_5",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -708,7 +708,7 @@
         {
             "id": 67,
             "name": "Generator_VoltExit",
-            "timestamp": 1731919473228,
+            "timestamp": 1731956794865,
             "unit": "V",
             "value": 0
         },
@@ -819,9 +819,9 @@
         {
             "id": 16577,
             "name": "TecJet_GasTemp1",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 39.6
+            "value": 24.8
         },
         {
             "id": 10055177,
@@ -846,7 +846,7 @@
         {
             "id": 169,
             "name": "Knock_KLS98_IntKnock_Cyl13",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -900,7 +900,7 @@
         {
             "id": 120,
             "name": "Monic_VoltCyl18",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -913,9 +913,9 @@
         {
             "id": 10009075,
             "name": "CMU_rPr_f_BbFilt",
-            "timestamp": 1731930413236,
+            "timestamp": 1731957603132,
             "unit": "mbar",
-            "value": 0.1
+            "value": 0
         },
         {
             "id": 19190,
@@ -973,9 +973,9 @@
         {
             "id": 193,
             "name": "Exhaust_TempCyl22",
-            "timestamp": 1731935953779,
+            "timestamp": 1731958064194,
             "unit": "°C",
-            "value": 62
+            "value": 205
         },
         {
             "id": 10001025,
@@ -1030,7 +1030,7 @@
         {
             "id": 10055717,
             "name": "halio_rp_actunfilt_1",
-            "timestamp": 1731919457998,
+            "timestamp": 1731956779631,
             "unit": "kW",
             "value": 0
         },
@@ -1058,7 +1058,7 @@
         {
             "id": 10050140,
             "name": "safi_iu_safi_win4_11",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -1219,9 +1219,9 @@
         {
             "id": 16614,
             "name": "Ignition_ITPCyl24",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10054934,
@@ -1299,7 +1299,7 @@
         {
             "id": 16567,
             "name": "Knock_KLS98_Knock_Cyl21",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -1332,15 +1332,15 @@
         {
             "id": 93,
             "name": "Monic_VoltCyl10",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
         {
             "id": 10009006,
             "name": "rE_SinceStart",
-            "timestamp": 1731919401374,
-            "value": 5.5
+            "timestamp": 1731956676997,
+            "value": 1.6
         },
         {
             "id": 17799,
@@ -1352,9 +1352,9 @@
         {
             "id": 158,
             "name": "Count_Maintenance2",
-            "timestamp": 1731919133061,
+            "timestamp": 1731954391180,
             "unit": "h",
-            "value": 3705
+            "value": 3703
         },
         {
             "id": 10001003,
@@ -1365,7 +1365,7 @@
         {
             "id": 19084,
             "name": "Various_Values_PosThrottleA2",
-            "timestamp": 1731919527027,
+            "timestamp": 1731956848655,
             "unit": "%",
             "value": 0
         },
@@ -1482,7 +1482,7 @@
         {
             "id": 10008737,
             "name": "Knock_Valve_Noise_Cyl24",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -1529,7 +1529,7 @@
         {
             "id": 142,
             "name": "Knock_KLS98_IntKnock_Cyl08",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -1581,9 +1581,9 @@
         {
             "id": 10049292,
             "name": "t_ch_t1hp_b",
-            "timestamp": 1731935948359,
+            "timestamp": 1731957980677,
             "unit": "°C",
-            "value": 45.1
+            "value": 49.9
         },
         {
             "id": 10054961,
@@ -1595,7 +1595,7 @@
         {
             "id": 10008982,
             "name": "CMU_rDPr_AirFilt_B",
-            "timestamp": 1731919460455,
+            "timestamp": 1731956782152,
             "unit": "mbar",
             "value": -0.7
         },
@@ -1636,7 +1636,7 @@
         {
             "id": 10049238,
             "name": "safi_win4_4",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -1697,14 +1697,14 @@
         {
             "id": 16594,
             "name": "Ignition_ITPCyl04",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 182,
             "name": "Various_Values_SetSpeed",
-            "timestamp": 1731914896465,
+            "timestamp": 1731955308612,
             "unit": "rpm",
             "value": 1500
         },
@@ -1770,7 +1770,7 @@
         {
             "id": 147,
             "name": "Knock_KLS98_IntKnock_Cyl18",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -1798,7 +1798,7 @@
         {
             "id": 10049257,
             "name": "safi_win4_23",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -2018,7 +2018,7 @@
         {
             "id": 10008715,
             "name": "Knock_Valve_Noise_Cyl05",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -2087,7 +2087,7 @@
         {
             "id": 10050116,
             "name": "safi_iu_safi_win3_11",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -2206,7 +2206,7 @@
         {
             "id": 10049227,
             "name": "safi_win3_17",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -2400,7 +2400,7 @@
         {
             "id": 10046604,
             "name": "CMU_rDPr_BbFilt",
-            "timestamp": 1731928554550,
+            "timestamp": 1731957946430,
             "unit": "mbar",
             "value": 0
         },
@@ -2447,7 +2447,7 @@
         {
             "id": 223,
             "name": "CtrModule_Ctr10_W",
-            "timestamp": 1731919816641,
+            "timestamp": 1731957138282,
             "value": 45
         },
         {
@@ -2466,8 +2466,8 @@
         {
             "id": 10046363,
             "name": "Count_Maintenance5",
-            "timestamp": 1731919133061,
-            "value": 267
+            "timestamp": 1731954391180,
+            "value": 265
         },
         {
             "id": 10001101,
@@ -2536,9 +2536,9 @@
         {
             "id": 66,
             "name": "Generator_TempWind3",
-            "timestamp": 1731935831941,
+            "timestamp": 1731958033328,
             "unit": "C",
-            "value": 39.8
+            "value": 51.2
         },
         {
             "id": 17257,
@@ -2616,9 +2616,9 @@
         {
             "id": 10050945,
             "name": "CtrModule_Ctr18_W",
-            "timestamp": 1731935960009,
+            "timestamp": 1731958072264,
             "unit": "",
-            "value": 0.17
+            "value": 0.06
         },
         {
             "id": 17761,
@@ -2637,9 +2637,9 @@
         {
             "id": 10047713,
             "name": "halio_ru_bus_l1n",
-            "timestamp": 1731935961229,
+            "timestamp": 1731958071543,
             "unit": "V",
-            "value": 6234
+            "value": 6214
         },
         {
             "id": 10045968,
@@ -2752,9 +2752,9 @@
         {
             "id": 89,
             "name": "TecJet_Lambda1",
-            "timestamp": 1731935660433,
+            "timestamp": 1731958068028,
             "unit": "a/f",
-            "value": 1.524
+            "value": 1.648
         },
         {
             "id": 19202,
@@ -3099,9 +3099,9 @@
         {
             "id": 10049587,
             "name": "systeminfo_availablememory",
-            "timestamp": 1731935944935,
+            "timestamp": 1731958071579,
             "unit": "MB",
-            "value": 4298
+            "value": 4308
         },
         {
             "id": 10049986,
@@ -3153,9 +3153,9 @@
         {
             "id": 124,
             "name": "Power_RedPowerAct",
-            "timestamp": 1731935323603,
+            "timestamp": 1731938048909,
             "unit": "kW",
-            "value": 4472
+            "value": 4495
         },
         {
             "id": 10050239,
@@ -3179,7 +3179,7 @@
         {
             "id": 84,
             "name": "Monic_VoltCyl04",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -3498,7 +3498,7 @@
         {
             "id": 73,
             "name": "MMD_VoltAvg",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -3538,9 +3538,9 @@
         {
             "id": 20069,
             "name": "CMU_rPr_Ch_P2HP",
-            "timestamp": 1731919519155,
+            "timestamp": 1731956929161,
             "unit": "bar",
-            "value": 1.01
+            "value": 1
         },
         {
             "id": 10055043,
@@ -3731,8 +3731,8 @@
         {
             "id": 10008979,
             "name": "CMU_rDPr_Ch_FA",
-            "timestamp": 1731935958399,
-            "value": -3
+            "timestamp": 1731958072062,
+            "value": -7
         },
         {
             "id": 10054910,
@@ -3844,9 +3844,9 @@
         {
             "id": 20292,
             "name": "Aux_rPr_Baro",
-            "timestamp": 1731930371197,
+            "timestamp": 1731958005484,
             "unit": "bar",
-            "value": 998
+            "value": 991
         },
         {
             "id": 18127,
@@ -3957,7 +3957,7 @@
         {
             "id": 10050144,
             "name": "safi_iu_safi_win4_15",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -3990,14 +3990,14 @@
         {
             "id": 164,
             "name": "Ignition_SAFI_ElectTemp4",
-            "timestamp": 1731935949219,
+            "timestamp": 1731958029506,
             "unit": "C",
-            "value": 61.8
+            "value": 55.6
         },
         {
             "id": 19099,
             "name": "Various_Values_SetPosThrottleB2",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 1.9
         },
@@ -4028,7 +4028,7 @@
         {
             "id": 16572,
             "name": "TecJet_GasDiffPress",
-            "timestamp": 1731935924393,
+            "timestamp": 1731956787800,
             "unit": "mbar",
             "value": -1
         },
@@ -4062,7 +4062,7 @@
         {
             "id": 170,
             "name": "Knock_KLS98_IntKnock_Cyl15",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -4183,7 +4183,7 @@
         {
             "id": 78,
             "name": "Monic_VoltAvg",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956839075,
             "unit": "kV",
             "value": 0
         },
@@ -4419,7 +4419,7 @@
         {
             "id": 10049249,
             "name": "safi_win4_15",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -4446,7 +4446,7 @@
         {
             "id": 16555,
             "name": "Knock_KLS98_Knock_Cyl09",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "mV",
             "value": 0
         },
@@ -4564,9 +4564,9 @@
         {
             "id": 10053550,
             "name": "opstate_iidx_pred_type",
-            "timestamp": 1731933137682,
+            "timestamp": 1731937131315,
             "unit": "",
-            "value": 10
+            "value": 0
         },
         {
             "id": 10055032,
@@ -4617,7 +4617,7 @@
         {
             "id": 10008726,
             "name": "Knock_Valve_Noise_Cyl13",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -4643,9 +4643,9 @@
         {
             "id": 16599,
             "name": "Ignition_ITPCyl09",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10000911,
@@ -5006,7 +5006,7 @@
         {
             "id": 10008719,
             "name": "Knock_Valve_Noise_Cyl04",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -5210,7 +5210,7 @@
         {
             "id": 10049225,
             "name": "safi_win3_15",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -5298,14 +5298,14 @@
         {
             "id": 100,
             "name": "Monic_VoltMax",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956839075,
             "unit": "kV",
             "value": 0
         },
         {
             "id": 23,
             "name": "CtrModule_Ctr1_Y",
-            "timestamp": 1731919595920,
+            "timestamp": 1731956915514,
             "unit": "%",
             "value": 0
         },
@@ -5418,9 +5418,9 @@
         {
             "id": 62,
             "name": "Generator_TempWind1",
-            "timestamp": 1731935887454,
+            "timestamp": 1731958045228,
             "unit": "C",
-            "value": 39.1
+            "value": 50
         },
         {
             "id": 10054973,
@@ -5452,7 +5452,7 @@
         {
             "id": 10053281,
             "name": "halio_ri_l1_1",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "unit": "A",
             "value": 0
         },
@@ -5546,9 +5546,9 @@
         {
             "id": 16043,
             "name": "Count_OpHourGenSet",
-            "timestamp": 1731919132708,
+            "timestamp": 1731954390900,
             "unit": "h",
-            "value": 2733
+            "value": 2735
         },
         {
             "id": 10001274,
@@ -5852,8 +5852,8 @@
         {
             "id": 20254,
             "name": "Ignition_SAFI_OpHours11",
-            "timestamp": 1731919304216,
-            "value": 2780.5
+            "timestamp": 1731956624261,
+            "value": 2783
         },
         {
             "id": 10050981,
@@ -5964,14 +5964,14 @@
         {
             "id": 10050129,
             "name": "safi_iu_safi_win3_24",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
         {
             "id": 135,
             "name": "Knock_KLS98_IntKnock_Cyl03",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -5992,7 +5992,7 @@
         {
             "id": 10050119,
             "name": "safi_iu_safi_win3_14",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -6073,7 +6073,7 @@
         {
             "id": 121,
             "name": "Monic_VoltCyl19",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -6151,7 +6151,7 @@
         {
             "id": 88,
             "name": "Monic_VoltCyl07",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -6205,7 +6205,7 @@
         {
             "id": 10044845,
             "name": "emission_rflow_scr_ureadosingunit_ff",
-            "timestamp": 1731919457242,
+            "timestamp": 1731956778928,
             "unit": "l/h",
             "value": 0
         },
@@ -6488,7 +6488,7 @@
         {
             "id": 10049235,
             "name": "safi_win4_1",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -6625,9 +6625,9 @@
         {
             "id": 110,
             "name": "MMD_CountEnergAct",
-            "timestamp": 1731919330347,
+            "timestamp": 1731956670945,
             "unit": "MWh",
-            "value": 12085.5
+            "value": 12095.6
         },
         {
             "id": 10000885,
@@ -6694,7 +6694,7 @@
         {
             "id": 10049526,
             "name": "halio_power_apparent_s",
-            "timestamp": 1731919478571,
+            "timestamp": 1731956800210,
             "unit": "kVA",
             "value": 0
         },
@@ -6782,9 +6782,9 @@
         {
             "id": 20330,
             "name": "Leanox_P2Set",
-            "timestamp": 1731932325570,
+            "timestamp": 1731958055318,
             "unit": "bar",
-            "value": 0.49
+            "value": 0.45
         },
         {
             "id": 17951,
@@ -6948,7 +6948,7 @@
         {
             "id": 10050148,
             "name": "safi_iu_safi_win4_19",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -7329,7 +7329,7 @@
         {
             "id": 10009050,
             "name": "rP_Ramp_Act",
-            "timestamp": 1731915043747,
+            "timestamp": 1731955487911,
             "value": 0
         },
         {
@@ -7428,7 +7428,7 @@
         {
             "id": 10050126,
             "name": "safi_iu_safi_win3_21",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -7711,9 +7711,9 @@
         {
             "id": 104,
             "name": "Various_Values_PressBoost",
-            "timestamp": 1731935606375,
+            "timestamp": 1731956829390,
             "unit": "bar",
-            "value": 1.01
+            "value": 1
         },
         {
             "id": 10008374,
@@ -7745,7 +7745,7 @@
         {
             "id": 16566,
             "name": "Knock_KLS98_Knock_Cyl20",
-            "timestamp": 1731919515925,
+            "timestamp": 1731956837662,
             "unit": "mV",
             "value": 0
         },
@@ -7839,9 +7839,9 @@
         {
             "id": 10049284,
             "name": "pr_ch_p1hp_b",
-            "timestamp": 1731919513405,
+            "timestamp": 1731956841394,
             "unit": "bar",
-            "value": 1.01
+            "value": 1
         },
         {
             "id": 10000939,
@@ -7918,7 +7918,7 @@
         {
             "id": 90,
             "name": "Monic_VoltCyl08",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -7932,7 +7932,7 @@
         {
             "id": 141,
             "name": "Knock_KLS98_IntKnock_Cyl09",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -7958,7 +7958,7 @@
         {
             "id": 139,
             "name": "Knock_KLS98_IntKnock_Cyl10",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -8135,7 +8135,7 @@
         {
             "id": 181,
             "name": "Various_Values_PosThrottle",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 1.9
         },
@@ -8249,9 +8249,9 @@
         {
             "id": 16600,
             "name": "Ignition_ITPCyl10",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10055204,
@@ -8504,7 +8504,7 @@
         {
             "id": 10050137,
             "name": "safi_iu_safi_win4_8",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -8586,9 +8586,9 @@
         {
             "id": 44,
             "name": "Exhaust_TempCyl16",
-            "timestamp": 1731935957195,
+            "timestamp": 1731958064194,
             "unit": "°C",
-            "value": 58
+            "value": 207
         },
         {
             "id": 10000428,
@@ -8618,9 +8618,9 @@
         {
             "id": 10050963,
             "name": "CtrModule_Ctr18_X",
-            "timestamp": 1731935960009,
+            "timestamp": 1731958072264,
             "unit": "",
-            "value": 0.17
+            "value": 0.06
         },
         {
             "id": 10000242,
@@ -8743,7 +8743,7 @@
         {
             "id": 10049242,
             "name": "safi_win4_8",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -8856,9 +8856,9 @@
         {
             "id": 33,
             "name": "Exhaust_TempCyl08",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072062,
             "unit": "°C",
-            "value": 62
+            "value": 212
         },
         {
             "id": 10000638,
@@ -8877,9 +8877,9 @@
         {
             "id": 117,
             "name": "Ignition_SAFI_ElectTemp1",
-            "timestamp": 1731935754040,
+            "timestamp": 1731958014491,
             "unit": "C",
-            "value": 61.7
+            "value": 55.3
         },
         {
             "id": 20251,
@@ -8974,9 +8974,9 @@
         {
             "id": 10055719,
             "name": "chargingunit_rt_ch_t1lp",
-            "timestamp": 1731933726839,
+            "timestamp": 1731958060769,
             "unit": "°C",
-            "value": 35.2
+            "value": 27.9
         },
         {
             "id": 10049834,
@@ -9111,7 +9111,7 @@
         {
             "id": 197,
             "name": "Aux_GasVol",
-            "timestamp": 1731934786048,
+            "timestamp": 1731958048458,
             "unit": "m3/h",
             "value": 0
         },
@@ -9165,9 +9165,9 @@
         {
             "id": 10053532,
             "name": "opstate_rp_red_t_inairer",
-            "timestamp": 1731935318639,
+            "timestamp": 1731938049123,
             "unit": "kW",
-            "value": 4472
+            "value": 4495
         },
         {
             "id": 10001263,
@@ -9222,7 +9222,7 @@
         {
             "id": 10049231,
             "name": "safi_win3_21",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -9327,7 +9327,7 @@
         {
             "id": 19088,
             "name": "Various_Values_SetPosTurboBypassA2",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 0
         },
@@ -9383,9 +9383,9 @@
         {
             "id": 10047715,
             "name": "halio_ru_bus_l3n",
-            "timestamp": 1731935961229,
+            "timestamp": 1731958071543,
             "unit": "V",
-            "value": 6215
+            "value": 6183
         },
         {
             "id": 19208,
@@ -9770,7 +9770,7 @@
         {
             "id": 10050122,
             "name": "safi_iu_safi_win3_17",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -9837,14 +9837,14 @@
         {
             "id": 10050989,
             "name": "CtrModule_Ctr10_Error",
-            "timestamp": 1731935687979,
+            "timestamp": 1731958050524,
             "unit": "",
-            "value": -9.2
+            "value": -21.3
         },
         {
             "id": 10049253,
             "name": "safi_win4_19",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -9864,7 +9864,7 @@
         {
             "id": 10049214,
             "name": "safi_win3_4",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -10263,9 +10263,9 @@
         {
             "id": 227,
             "name": "Hyd_OilCount_Trend_OilConsumption",
-            "timestamp": 1731865820328,
+            "timestamp": 1731952735859,
             "unit": "g/kWh",
-            "value": 0.052
+            "value": 0.006
         },
         {
             "id": 18201,
@@ -10284,7 +10284,7 @@
         {
             "id": 10051012,
             "name": "CtrModule_Ctr33_Error",
-            "timestamp": 1731919431329,
+            "timestamp": 1731956754386,
             "unit": "",
             "value": 0
         },
@@ -10324,8 +10324,8 @@
         {
             "id": 19107,
             "name": "CtrModule_Ctr16_X",
-            "timestamp": 1731935954583,
-            "value": 59.7
+            "timestamp": 1731958027081,
+            "value": 76.5
         },
         {
             "id": 10001413,
@@ -10448,7 +10448,7 @@
         {
             "id": 10049217,
             "name": "safi_win3_7",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -10474,7 +10474,7 @@
         {
             "id": 16556,
             "name": "Knock_KLS98_Knock_Cyl10",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "mV",
             "value": 0
         },
@@ -10494,15 +10494,15 @@
         {
             "id": 10049211,
             "name": "safi_win3_1",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
         {
             "id": 22,
             "name": "CtrModule_Ctr1_X",
-            "timestamp": 1731935687276,
-            "value": 35.7
+            "timestamp": 1731958050271,
+            "value": 23.6
         },
         {
             "id": 10008369,
@@ -10520,7 +10520,7 @@
         {
             "id": 10050151,
             "name": "safi_iu_safi_win4_22",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -10533,16 +10533,16 @@
         {
             "id": 10049864,
             "name": "auxiliariesgeneral_rpr_eoap",
-            "timestamp": 1731923170695,
+            "timestamp": 1731958071861,
             "unit": "bar",
-            "value": 0.16
+            "value": 0.32
         },
         {
             "id": 56,
             "name": "Exhaust_TempHexIn",
-            "timestamp": 1731935907643,
+            "timestamp": 1731958056732,
             "unit": "°C",
-            "value": 185
+            "value": 338
         },
         {
             "id": 10000380,
@@ -10586,7 +10586,7 @@
         {
             "id": 10009017,
             "name": "rTi_Start_2",
-            "timestamp": 1731780043215,
+            "timestamp": 1731951070124,
             "value": 276
         },
         {
@@ -10769,7 +10769,7 @@
         {
             "id": 10047717,
             "name": "halio_ru_l2_3",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -10829,16 +10829,16 @@
         {
             "id": 16550,
             "name": "Knock_KLS98_Knock_Cyl04",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837360,
             "unit": "mV",
             "value": 0
         },
         {
             "id": 10055815,
             "name": "opstate_icnt_unitophours",
-            "timestamp": 1731919132787,
+            "timestamp": 1731954390887,
             "unit": "h",
-            "value": 2733
+            "value": 2735
         },
         {
             "id": 17932,
@@ -10850,9 +10850,9 @@
         {
             "id": 10049328,
             "name": "rpr_tc_eof_after",
-            "timestamp": 1731935959228,
+            "timestamp": 1731958071543,
             "unit": "bar",
-            "value": 0.03
+            "value": 0.12
         },
         {
             "id": 10000773,
@@ -10891,9 +10891,9 @@
         {
             "id": 163,
             "name": "Ignition_SAFI_ElectTemp3",
-            "timestamp": 1731935944214,
+            "timestamp": 1731958024501,
             "unit": "C",
-            "value": 60.8
+            "value": 54.7
         },
         {
             "id": 18168,
@@ -10983,9 +10983,9 @@
         {
             "id": 26,
             "name": "Exhaust_TempCyl01",
-            "timestamp": 1731935961419,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 56
+            "value": 185
         },
         {
             "id": 224,
@@ -11083,9 +11083,9 @@
         {
             "id": 16571,
             "name": "Leanox_P2Error",
-            "timestamp": 1731935957983,
+            "timestamp": 1731957970994,
             "unit": "mbar",
-            "value": 0.514
+            "value": 0.556
         },
         {
             "id": 20402,
@@ -11116,7 +11116,7 @@
         {
             "id": 19098,
             "name": "Various_Values_SetPosThrottleB1",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 1.9
         },
@@ -11162,7 +11162,7 @@
         {
             "id": 10049236,
             "name": "safi_win4_2",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -11258,7 +11258,7 @@
         {
             "id": 10053285,
             "name": "generator_mm2vis.rq_avr_set_norm",
-            "timestamp": 1731918065678,
+            "timestamp": 1731956755720,
             "unit": "%",
             "value": 0
         },
@@ -11306,7 +11306,7 @@
         {
             "id": 134,
             "name": "Knock_KLS98_IntKnock_Cyl16",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -11360,7 +11360,7 @@
         {
             "id": 16554,
             "name": "Knock_KLS98_Knock_Cyl08",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "mV",
             "value": 0
         },
@@ -11427,9 +11427,9 @@
         {
             "id": 50,
             "name": "Exhaust_TempCyl20",
-            "timestamp": 1731935958399,
+            "timestamp": 1731958069844,
             "unit": "°C",
-            "value": 60
+            "value": 212
         },
         {
             "id": 10002577,
@@ -11498,7 +11498,7 @@
         {
             "id": 16568,
             "name": "Knock_KLS98_Knock_Cyl22",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -11750,7 +11750,7 @@
         {
             "id": 10008727,
             "name": "Knock_Valve_Noise_Cyl15",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -11811,7 +11811,7 @@
         {
             "id": 123,
             "name": "Monic_VoltCyl20",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -12151,9 +12151,9 @@
         {
             "id": 174,
             "name": "Ignition_SAFI_ElectTemp9",
-            "timestamp": 1731935794076,
+            "timestamp": 1731958054527,
             "unit": "C",
-            "value": 61.3
+            "value": 63.5
         },
         {
             "id": 10008810,
@@ -12203,9 +12203,9 @@
         {
             "id": 10050995,
             "name": "CtrModule_Ctr16_Error",
-            "timestamp": 1731935955226,
+            "timestamp": 1731944320805,
             "unit": "",
-            "value": -15.2
+            "value": 0
         },
         {
             "id": 10055243,
@@ -12281,7 +12281,7 @@
         {
             "id": 10047719,
             "name": "halio_ru_l1n",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -12294,9 +12294,9 @@
         {
             "id": 37,
             "name": "Exhaust_TempCyl12",
-            "timestamp": 1731935961822,
+            "timestamp": 1731958071255,
             "unit": "°C",
-            "value": 65
+            "value": 220
         },
         {
             "id": 10044284,
@@ -12354,9 +12354,9 @@
         {
             "id": 68,
             "name": "Hyd_PressOil",
-            "timestamp": 1731935956370,
+            "timestamp": 1731958072162,
             "unit": "bar",
-            "value": 0.02
+            "value": 0.12
         },
         {
             "id": 17813,
@@ -12613,7 +12613,7 @@
         {
             "id": 107,
             "name": "Various_Values_SpeedAct",
-            "timestamp": 1731919516429,
+            "timestamp": 1731956838166,
             "unit": "rpm",
             "value": 0
         },
@@ -12633,9 +12633,9 @@
         {
             "id": 16608,
             "name": "Ignition_ITPCyl18",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10008406,
@@ -12844,14 +12844,14 @@
         {
             "id": 217,
             "name": "Hyd_PressCrankCase",
-            "timestamp": 1731930579106,
+            "timestamp": 1731957886653,
             "unit": "mbar",
-            "value": 0.1
+            "value": 0
         },
         {
             "id": 10009018,
             "name": "rTi_SumLoad",
-            "timestamp": 1731915043747,
+            "timestamp": 1731955487911,
             "value": 276
         },
         {
@@ -12909,8 +12909,8 @@
         {
             "id": 20253,
             "name": "Ignition_SAFI_OpHours10",
-            "timestamp": 1731919299211,
-            "value": 2720.5
+            "timestamp": 1731956619258,
+            "value": 2723
         },
         {
             "id": 17410,
@@ -12935,8 +12935,8 @@
         {
             "id": 10009020,
             "name": "rTi_Sync_0",
-            "timestamp": 1731914767866,
-            "value": 9
+            "timestamp": 1731944050563,
+            "value": 8
         },
         {
             "id": 10000789,
@@ -12980,15 +12980,15 @@
         {
             "id": 19083,
             "name": "Various_Values_PosThrottleA1",
-            "timestamp": 1731919527027,
+            "timestamp": 1731956848655,
             "unit": "%",
             "value": 0
         },
         {
             "id": 20235,
             "name": "Ignition_SAFI_OpHours8",
-            "timestamp": 1731919289202,
-            "value": 2780.6
+            "timestamp": 1731956609249,
+            "value": 2783.1
         },
         {
             "id": 10001183,
@@ -13081,9 +13081,9 @@
         {
             "id": 16593,
             "name": "Ignition_ITPCyl03",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 18944,
@@ -13114,9 +13114,9 @@
         {
             "id": 46,
             "name": "Exhaust_TempCyl18",
-            "timestamp": 1731935960815,
+            "timestamp": 1731958071255,
             "unit": "°C",
-            "value": 61
+            "value": 218
         },
         {
             "id": 10054789,
@@ -13135,13 +13135,13 @@
         {
             "id": 20197,
             "name": "Ignition_SAFI_OpHours2",
-            "timestamp": 1731919319231,
-            "value": 2780.5
+            "timestamp": 1731956639278,
+            "value": 2783
         },
         {
             "id": 206,
             "name": "Monic_VoltCyl24",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -13321,7 +13321,7 @@
         {
             "id": 10008716,
             "name": "Knock_Valve_Noise_Cyl01",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -13406,7 +13406,7 @@
         {
             "id": 16561,
             "name": "Knock_KLS98_Knock_Cyl15",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837561,
             "unit": "mV",
             "value": 0
         },
@@ -13439,7 +13439,7 @@
         {
             "id": 99,
             "name": "Monic_VoltCyl16",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956838873,
             "unit": "kV",
             "value": 0
         },
@@ -13507,8 +13507,8 @@
         {
             "id": 177,
             "name": "CtrModule_Ctr12_W",
-            "timestamp": 1731935919354,
-            "value": 39.1
+            "timestamp": 1731958069239,
+            "value": 38.1
         },
         {
             "id": 10054413,
@@ -13559,7 +13559,7 @@
         {
             "id": 10050978,
             "name": "CtrModule_Ctr33_X",
-            "timestamp": 1731919454228,
+            "timestamp": 1731956775901,
             "unit": "",
             "value": 0
         },
@@ -13579,8 +13579,8 @@
         {
             "id": 10046366,
             "name": "Count_Maintenance8",
-            "timestamp": 1731919133061,
-            "value": 797580
+            "timestamp": 1731954391180,
+            "value": 797578
         },
         {
             "id": 18754,
@@ -13639,7 +13639,7 @@
         {
             "id": 10050115,
             "name": "safi_iu_safi_win3_10",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -13794,7 +13794,7 @@
         {
             "id": 10049226,
             "name": "safi_win3_16",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -14080,9 +14080,9 @@
         {
             "id": 10055756,
             "name": "CtrModule_Ctr9_W",
-            "timestamp": 1731935954985,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 58.6
+            "value": 59.6
         },
         {
             "id": 10000262,
@@ -14128,7 +14128,7 @@
         {
             "id": 209,
             "name": "Knock_KLS98_IntKnock_Cyl22",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -14208,9 +14208,9 @@
         {
             "id": 16613,
             "name": "Ignition_ITPCyl23",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10054463,
@@ -14380,7 +14380,7 @@
         {
             "id": 94,
             "name": "Monic_VoltCyl11",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -14488,9 +14488,9 @@
         {
             "id": 16598,
             "name": "Ignition_ITPCyl08",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 17667,
@@ -14515,7 +14515,7 @@
         {
             "id": 83,
             "name": "Monic_VoltCyl03",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -14813,9 +14813,9 @@
         {
             "id": 35,
             "name": "Exhaust_TempCyl10",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 61
+            "value": 203
         },
         {
             "id": 10049602,
@@ -15179,7 +15179,7 @@
         {
             "id": 10047721,
             "name": "halio_ru_l3n",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -15320,7 +15320,7 @@
         {
             "id": 10008721,
             "name": "Knock_Valve_Noise_Cyl08",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -15380,9 +15380,9 @@
         {
             "id": 192,
             "name": "Ignition_SAFI_ElectTemp11",
-            "timestamp": 1731935924199,
+            "timestamp": 1731958064535,
             "unit": "C",
-            "value": 62
+            "value": 63.1
         },
         {
             "id": 18758,
@@ -16119,8 +16119,8 @@
         {
             "id": 10009009,
             "name": "rTi_Prep_1",
-            "timestamp": 1731914767866,
-            "value": 78
+            "timestamp": 1731955212278,
+            "value": 83
         },
         {
             "id": 10002828,
@@ -16184,7 +16184,7 @@
         {
             "id": 10049258,
             "name": "safi_win4_24",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -16270,9 +16270,9 @@
         {
             "id": 19093,
             "name": "Exhaust_TempLPTCOutletA",
-            "timestamp": 1731935889273,
+            "timestamp": 1731958040589,
             "unit": "°C",
-            "value": 187
+            "value": 337
         },
         {
             "id": 10054536,
@@ -16342,7 +16342,7 @@
         {
             "id": 103,
             "name": "Various_Values_PosTurboBypass",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 0
         },
@@ -16393,9 +16393,9 @@
         {
             "id": 112,
             "name": "Aux_PreChambDifPress",
-            "timestamp": 1731935962523,
+            "timestamp": 1731958071254,
             "unit": "mbar",
-            "value": -18
+            "value": -115
         },
         {
             "id": 72,
@@ -16487,7 +16487,7 @@
         {
             "id": 10008732,
             "name": "Knock_Valve_Noise_Cyl18",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -16521,7 +16521,7 @@
         {
             "id": 10049247,
             "name": "safi_win4_13",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -16691,7 +16691,7 @@
         {
             "id": 16565,
             "name": "Knock_KLS98_Knock_Cyl19",
-            "timestamp": 1731919515925,
+            "timestamp": 1731956837662,
             "unit": "mV",
             "value": 0
         },
@@ -16805,7 +16805,7 @@
         {
             "id": 10050143,
             "name": "safi_iu_safi_win4_14",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -16959,9 +16959,9 @@
         {
             "id": 10050969,
             "name": "CtrModule_Ctr24_X",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 10001178,
@@ -16993,8 +16993,8 @@
         {
             "id": 10008977,
             "name": "CMU_rDPr_Ch_LPCooler",
-            "timestamp": 1731935962427,
-            "value": -9
+            "timestamp": 1731958071861,
+            "value": -14
         },
         {
             "id": 19192,
@@ -17068,7 +17068,7 @@
         {
             "id": 10050118,
             "name": "safi_iu_safi_win3_13",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -17217,9 +17217,9 @@
         {
             "id": 159,
             "name": "Count_Maintenance3",
-            "timestamp": 1731919133061,
+            "timestamp": 1731954391180,
             "unit": "h",
-            "value": 7705
+            "value": 7703
         },
         {
             "id": 10008353,
@@ -17311,9 +17311,9 @@
         {
             "id": 16607,
             "name": "Ignition_ITPCyl17",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10001137,
@@ -17536,7 +17536,7 @@
         {
             "id": 10050108,
             "name": "safi_iu_safi_win3_3",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -17724,8 +17724,8 @@
         {
             "id": 20201,
             "name": "Ignition_SAFI_OpHours7",
-            "timestamp": 1731919284198,
-            "value": 2780.6
+            "timestamp": 1731956604246,
+            "value": 2783.1
         },
         {
             "id": 10000882,
@@ -17861,9 +17861,9 @@
         {
             "id": 10049606,
             "name": "systeminfo_systemuptime",
-            "timestamp": 1731933148228,
+            "timestamp": 1731954748144,
             "unit": "h",
-            "value": 1107.12451
+            "value": 1113.12463
         },
         {
             "id": 10001439,
@@ -18213,7 +18213,7 @@
         {
             "id": 10053282,
             "name": "halio_ri_l2_1",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "A",
             "value": 0
         },
@@ -18336,8 +18336,8 @@
         {
             "id": 10009013,
             "name": "rTi_Speedup_1",
-            "timestamp": 1731779767390,
-            "value": 25
+            "timestamp": 1731944050563,
+            "value": 26
         },
         {
             "id": 10008840,
@@ -18600,9 +18600,9 @@
         {
             "id": 48,
             "name": "Exhaust_TempCyl19",
-            "timestamp": 1731935961822,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 59
+            "value": 217
         },
         {
             "id": 18146,
@@ -18772,7 +18772,7 @@
         {
             "id": 10008981,
             "name": "bSync",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "value": 0
         },
         {
@@ -18981,8 +18981,8 @@
         {
             "id": 19103,
             "name": "CtrModule_Ctr15_W",
-            "timestamp": 1731935954985,
-            "value": 58.6
+            "timestamp": 1731958072466,
+            "value": 59.6
         },
         {
             "id": 10050762,
@@ -19062,7 +19062,7 @@
         {
             "id": 10049254,
             "name": "safi_win4_20",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -19088,14 +19088,14 @@
         {
             "id": 21,
             "name": "Aux_RoomTemp",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "°C",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 116,
             "name": "CtrModule_Ctr12_Y",
-            "timestamp": 1731928508000,
+            "timestamp": 1731950966633,
             "unit": "%",
             "value": 0
         },
@@ -19109,7 +19109,7 @@
         {
             "id": 10049215,
             "name": "safi_win3_5",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -19163,8 +19163,8 @@
         {
             "id": 10009069,
             "name": "SlowDownTime08",
-            "timestamp": 1730995326282,
-            "value": 51
+            "timestamp": 1731956829469,
+            "value": 52
         },
         {
             "id": 10054445,
@@ -19215,8 +19215,8 @@
         {
             "id": 10045525,
             "name": "out_ha_rf_mmd_busbar_1",
-            "timestamp": 1731935936193,
-            "value": 49.95
+            "timestamp": 1731958068428,
+            "value": 49.93
         },
         {
             "id": 10000735,
@@ -19361,7 +19361,7 @@
         {
             "id": 76,
             "name": "MMD_PowerReact",
-            "timestamp": 1731919475243,
+            "timestamp": 1731956796882,
             "unit": "kvar",
             "value": 0
         },
@@ -19388,7 +19388,7 @@
         {
             "id": 10049243,
             "name": "safi_win4_9",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -19422,7 +19422,7 @@
         {
             "id": 16557,
             "name": "Knock_KLS98_Knock_Cyl11",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837561,
             "unit": "mV",
             "value": 0
         },
@@ -19436,9 +19436,9 @@
         {
             "id": 19094,
             "name": "Exhaust_TempLPTCOutletB",
-            "timestamp": 1731935935488,
+            "timestamp": 1731958012358,
             "unit": "°C",
-            "value": 183
+            "value": 340
         },
         {
             "id": 20202,
@@ -19482,9 +19482,9 @@
         {
             "id": 228,
             "name": "Hyd_OilCount_Trend_OilVolume",
-            "timestamp": 1731865820328,
+            "timestamp": 1731952735859,
             "unit": "l",
-            "value": 0.7
+            "value": 0.1
         },
         {
             "id": 10008870,
@@ -19628,7 +19628,7 @@
         {
             "id": 10049232,
             "name": "safi_win3_22",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -19677,7 +19677,7 @@
         {
             "id": 138,
             "name": "Knock_KLS98_IntKnock_Cyl07",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -19851,16 +19851,16 @@
         {
             "id": 16603,
             "name": "Ignition_ITPCyl13",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 54,
             "name": "Exhaust_TempCylMin",
-            "timestamp": 1731935956593,
+            "timestamp": 1731958068835,
             "unit": "°C",
-            "value": 56
+            "value": 184
         },
         {
             "id": 10001219,
@@ -20011,8 +20011,8 @@
         {
             "id": 10009007,
             "name": "rTi_Load_2",
-            "timestamp": 1731915043747,
-            "value": 147
+            "timestamp": 1731955487911,
+            "value": 179
         },
         {
             "id": 10055129,
@@ -20280,9 +20280,9 @@
         {
             "id": 43,
             "name": "Exhaust_TempCyl15",
-            "timestamp": 1731935939319,
+            "timestamp": 1731958069239,
             "unit": "°C",
-            "value": 57
+            "value": 202
         },
         {
             "id": 20326,
@@ -20321,14 +20321,14 @@
         {
             "id": 148,
             "name": "Knock_KLS98_IntKnock_Cyl20",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
         {
             "id": 10050988,
             "name": "CtrModule_Ctr9_Error",
-            "timestamp": 1731915057185,
+            "timestamp": 1731955384078,
             "unit": "",
             "value": 0
         },
@@ -20396,7 +20396,7 @@
         {
             "id": 10050127,
             "name": "safi_iu_safi_win3_22",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -20671,9 +20671,9 @@
         {
             "id": 10050951,
             "name": "CtrModule_Ctr24_W",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 17976,
@@ -20879,9 +20879,9 @@
         {
             "id": 10056138,
             "name": "chargingunit_rpr_ch_p2s",
-            "timestamp": 1731935841221,
+            "timestamp": 1731956829387,
             "unit": "bar",
-            "value": 1.01
+            "value": 1
         },
         {
             "id": 18470,
@@ -20998,7 +20998,7 @@
         {
             "id": 10049216,
             "name": "safi_win3_6",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -21084,9 +21084,9 @@
         {
             "id": 71,
             "name": "Hyd_TempOil",
-            "timestamp": 1731935660433,
+            "timestamp": 1731958068028,
             "unit": "C",
-            "value": 37.4
+            "value": 74.6
         },
         {
             "id": 10000909,
@@ -21175,7 +21175,7 @@
         {
             "id": 19079,
             "name": "Exhaust_TCSpeedA",
-            "timestamp": 1731919516328,
+            "timestamp": 1731956838065,
             "unit": "1000/min",
             "value": 0
         },
@@ -21320,9 +21320,9 @@
         {
             "id": 10055816,
             "name": "enginecontroller_rgen2_lamlim_offset",
-            "timestamp": 1731919092016,
+            "timestamp": 1731956776409,
             "unit": "λ",
-            "value": 0.099
+            "value": 0.098
         },
         {
             "id": 10000254,
@@ -21395,7 +21395,7 @@
         {
             "id": 10009024,
             "name": "bScavDone",
-            "timestamp": 1731919684285,
+            "timestamp": 1731957006213,
             "value": 1
         },
         {
@@ -21422,7 +21422,7 @@
         {
             "id": 10047716,
             "name": "halio_ru_l1_2",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -21442,9 +21442,9 @@
         {
             "id": 10049588,
             "name": "systeminfo_cpuutilization",
-            "timestamp": 1731935962041,
+            "timestamp": 1731958072591,
             "unit": "%",
-            "value": 5.041689
+            "value": 7.848177
         },
         {
             "id": 108,
@@ -21607,9 +21607,9 @@
         {
             "id": 202,
             "name": "Aux_PreChambGasTrainPress",
-            "timestamp": 1731935770412,
+            "timestamp": 1731958071759,
             "unit": "bar",
-            "value": 0.99
+            "value": 0.89
         },
         {
             "id": 10049973,
@@ -21627,7 +21627,7 @@
         {
             "id": 10049250,
             "name": "safi_win4_16",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -21674,7 +21674,7 @@
         {
             "id": 10050121,
             "name": "safi_iu_safi_win3_16",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -21727,7 +21727,7 @@
         {
             "id": 19087,
             "name": "Various_Values_SetPosTurboBypassA1",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 0
         },
@@ -21765,9 +21765,9 @@
         {
             "id": 10047710,
             "name": "halio_ru_bus_l1_2",
-            "timestamp": 1731935961229,
+            "timestamp": 1731958071543,
             "unit": "V",
-            "value": 10794
+            "value": 10769
         },
         {
             "id": 18654,
@@ -21793,16 +21793,16 @@
         {
             "id": 10050962,
             "name": "CtrModule_Ctr17_X",
-            "timestamp": 1731935954985,
+            "timestamp": 1731958072466,
             "unit": "",
-            "value": 58.6
+            "value": 59.6
         },
         {
             "id": 16546,
             "name": "Hyd_PressOilDif",
-            "timestamp": 1731935959228,
+            "timestamp": 1731958070542,
             "unit": "bar",
-            "value": 0.03
+            "value": 0.11
         },
         {
             "id": 10008851,
@@ -21983,7 +21983,7 @@
         {
             "id": 10050132,
             "name": "safi_iu_safi_win4_3",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -22017,7 +22017,7 @@
         {
             "id": 10050111,
             "name": "safi_iu_safi_win3_6",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -22031,9 +22031,9 @@
         {
             "id": 32,
             "name": "Exhaust_TempCyl07",
-            "timestamp": 1731935961218,
+            "timestamp": 1731958072062,
             "unit": "°C",
-            "value": 61
+            "value": 215
         },
         {
             "id": 20066,
@@ -22078,9 +22078,9 @@
         {
             "id": 185,
             "name": "Hyd_TempWatRetPreEng",
-            "timestamp": 1731935687176,
+            "timestamp": 1731958050272,
             "unit": "C",
-            "value": 35.7
+            "value": 23.6
         },
         {
             "id": 10008252,
@@ -22105,16 +22105,16 @@
         {
             "id": 16592,
             "name": "Ignition_ITPCyl02",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 16186,
             "name": "Count_OpHour_Billing",
-            "timestamp": 1731919132708,
+            "timestamp": 1731954390900,
             "unit": "h",
-            "value": 2733
+            "value": 2735
         },
         {
             "id": 17572,
@@ -22146,7 +22146,7 @@
         {
             "id": 10008728,
             "name": "Knock_Valve_Noise_Cyl12",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -22180,8 +22180,8 @@
         {
             "id": 20198,
             "name": "Ignition_SAFI_OpHours4",
-            "timestamp": 1731919329240,
-            "value": 2780.5
+            "timestamp": 1731956649283,
+            "value": 2783
         },
         {
             "id": 10008944,
@@ -22367,7 +22367,7 @@
         {
             "id": 10050120,
             "name": "safi_iu_safi_win3_15",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -22393,7 +22393,7 @@
         {
             "id": 10008717,
             "name": "Knock_Valve_Noise_Cyl03",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -22458,7 +22458,7 @@
         {
             "id": 10009030,
             "name": "rTi_Targ",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "value": 278
         },
         {
@@ -22516,8 +22516,8 @@
         {
             "id": 10009070,
             "name": "SlowDownTime09",
-            "timestamp": 1730980866996,
-            "value": 51
+            "timestamp": 1731954790560,
+            "value": 52
         },
         {
             "id": 20112,
@@ -22535,7 +22535,7 @@
         {
             "id": 80,
             "name": "Monic_VoltCyl01",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -22655,8 +22655,8 @@
         {
             "id": 10009022,
             "name": "rTi_Sync_2",
-            "timestamp": 1731915043747,
-            "value": 1
+            "timestamp": 1731955487911,
+            "value": 11
         },
         {
             "id": 10049298,
@@ -22776,7 +22776,7 @@
         {
             "id": 10049223,
             "name": "safi_win3_13",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -22804,7 +22804,7 @@
         {
             "id": 19089,
             "name": "Various_Values_SetPosTurboBypassB1",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 0
         },
@@ -22857,7 +22857,7 @@
         {
             "id": 19884,
             "name": "asset_status",
-            "timestamp": 1731892972607,
+            "timestamp": 1731955672616,
             "value": "{\"pendingUploads\":\"1/0\",\"dataItemsValid\":\"true\",\"edge\":\"true\",\"rem_conn\":\"Prim-SSL-NoProxy\",\"dataItems\":\"6643/14325\",\"agent_conn\":\"Prim-SSL-NoProxy\",\"mon_conn\":\"Prim-SSL-NoProxy\"}"
         },
         {
@@ -22869,8 +22869,8 @@
         {
             "id": 10046365,
             "name": "Count_Maintenance7",
-            "timestamp": 1731919133061,
-            "value": 697580
+            "timestamp": 1731954391180,
+            "value": 697578
         },
         {
             "id": 10054455,
@@ -22968,7 +22968,7 @@
         {
             "id": 16581,
             "name": "TecJet_ValvePos1",
-            "timestamp": 1731919465477,
+            "timestamp": 1731956786993,
             "unit": "%",
             "value": 0
         },
@@ -23002,7 +23002,7 @@
         {
             "id": 10050138,
             "name": "safi_iu_safi_win4_9",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -23055,7 +23055,7 @@
         {
             "id": 20286,
             "name": "Aux_GasRail_rPr_Out_Calc",
-            "timestamp": 1731919464361,
+            "timestamp": 1731956786417,
             "value": 0
         },
         {
@@ -23067,7 +23067,7 @@
         {
             "id": 10049252,
             "name": "safi_win4_18",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -23128,7 +23128,7 @@
         {
             "id": 10049525,
             "name": "halio_power_fact_cos_phi",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "value": 0
         },
         {
@@ -23181,7 +23181,7 @@
         {
             "id": 137,
             "name": "Knock_KLS98_IntKnock_Cyl12",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -23309,8 +23309,8 @@
         {
             "id": 10009019,
             "name": "rTi_SumSync",
-            "timestamp": 1731914896563,
-            "value": 129
+            "timestamp": 1731955308605,
+            "value": 96
         },
         {
             "id": 10055014,
@@ -23628,7 +23628,7 @@
         {
             "id": 82,
             "name": "Monic_VoltCyl02",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -23750,9 +23750,9 @@
         {
             "id": 126,
             "name": "Ignition_ITPAvg",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956839075,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10049287,
@@ -23777,9 +23777,9 @@
         {
             "id": 10055731,
             "name": "chargingunit_rt_ch_t2s",
-            "timestamp": 1731935954985,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 58.6
+            "value": 59.6
         },
         {
             "id": 10000147,
@@ -23919,7 +23919,7 @@
         {
             "id": 10051009,
             "name": "CtrModule_Ctr30_Error",
-            "timestamp": 1731925121475,
+            "timestamp": 1731957305870,
             "unit": "",
             "value": 0
         },
@@ -23997,14 +23997,14 @@
         {
             "id": 10056137,
             "name": "chargingunit_rpr_ch_p2",
-            "timestamp": 1731919505234,
+            "timestamp": 1731956851986,
             "unit": "bar",
-            "value": 1.01
+            "value": 1
         },
         {
             "id": 10050135,
             "name": "safi_iu_safi_win4_6",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -24083,9 +24083,9 @@
         {
             "id": 36,
             "name": "Exhaust_TempCyl11",
-            "timestamp": 1731935962427,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 62
+            "value": 202
         },
         {
             "id": 18153,
@@ -24209,7 +24209,7 @@
         {
             "id": 10050125,
             "name": "safi_iu_safi_win3_20",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -24323,7 +24323,7 @@
         {
             "id": 16570,
             "name": "Knock_KLS98_Knock_Cyl24",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -24343,9 +24343,9 @@
         {
             "id": 20070,
             "name": "CMU_rPr_Ch_P2bFA",
-            "timestamp": 1731919512700,
+            "timestamp": 1731956852086,
             "unit": "bar",
-            "value": 1
+            "value": 0.99
         },
         {
             "id": 10055095,
@@ -24410,7 +24410,7 @@
         {
             "id": 10050146,
             "name": "safi_iu_safi_win4_17",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -24424,7 +24424,7 @@
         {
             "id": 19097,
             "name": "Various_Values_SetPosThrottleA2",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 1.9
         },
@@ -24496,7 +24496,7 @@
         {
             "id": 10049229,
             "name": "safi_win3_19",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -24747,7 +24747,7 @@
         {
             "id": 16553,
             "name": "Knock_KLS98_Knock_Cyl07",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "mV",
             "value": 0
         },
@@ -24849,7 +24849,7 @@
         {
             "id": 10050136,
             "name": "safi_iu_safi_win4_7",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -24863,9 +24863,9 @@
         {
             "id": 16610,
             "name": "Ignition_ITPCyl20",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 20399,
@@ -24877,20 +24877,20 @@
         {
             "id": 19104,
             "name": "CtrModule_Ctr15_X",
-            "timestamp": 1731935954985,
-            "value": 58.6
+            "timestamp": 1731958072466,
+            "value": 59.6
         },
         {
             "id": 140,
             "name": "Knock_KLS98_IntKnock_Cyl11",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
         {
             "id": 10050147,
             "name": "safi_iu_safi_win4_18",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -24988,9 +24988,9 @@
         {
             "id": 10050946,
             "name": "CtrModule_Ctr19_W",
-            "timestamp": 1731926106925,
+            "timestamp": 1731958068028,
             "unit": "",
-            "value": 50
+            "value": 74.6
         },
         {
             "id": 10001144,
@@ -25173,7 +25173,7 @@
         {
             "id": 10050124,
             "name": "safi_iu_safi_win3_19",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -25219,7 +25219,7 @@
         {
             "id": 10050107,
             "name": "safi_iu_safi_win3_2",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -25372,14 +25372,14 @@
         {
             "id": 173,
             "name": "Ignition_SAFI_ElectTemp7",
-            "timestamp": 1731935904178,
+            "timestamp": 1731958044519,
             "unit": "C",
-            "value": 62
+            "value": 63.5
         },
         {
             "id": 16547,
             "name": "Knock_KLS98_Knock_Cyl01",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837662,
             "unit": "mV",
             "value": 0
         },
@@ -25439,8 +25439,8 @@
         {
             "id": 20200,
             "name": "Ignition_SAFI_OpHours6",
-            "timestamp": 1731919279191,
-            "value": 2780.5
+            "timestamp": 1731956599239,
+            "value": 2783
         },
         {
             "id": 10000139,
@@ -25478,7 +25478,7 @@
         {
             "id": 180,
             "name": "Various_Bits_OperationOn",
-            "timestamp": 1731919464271,
+            "timestamp": 1731956785784,
             "value": 0
         },
         {
@@ -25504,7 +25504,7 @@
         {
             "id": 10047718,
             "name": "halio_ru_l3_1",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -25546,9 +25546,9 @@
         {
             "id": 10055721,
             "name": "chargingunit_rt_ch_t1lp_avg",
-            "timestamp": 1731933726839,
+            "timestamp": 1731958060769,
             "unit": "°C",
-            "value": 35.2
+            "value": 27.9
         },
         {
             "id": 10001287,
@@ -25672,7 +25672,7 @@
         {
             "id": 10047720,
             "name": "halio_ru_l2n",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "V",
             "value": 0
         },
@@ -25693,7 +25693,7 @@
         {
             "id": 10008735,
             "name": "Knock_Valve_Noise_Cyl23",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -25707,13 +25707,13 @@
         {
             "id": 10044821,
             "name": "OperationalConditionNumeric",
-            "timestamp": 1731919584469,
+            "timestamp": 1731956906527,
             "value": 40
         },
         {
             "id": 16558,
             "name": "Knock_KLS98_Knock_Cyl12",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837561,
             "unit": "mV",
             "value": 0
         },
@@ -25877,9 +25877,9 @@
         {
             "id": 60,
             "name": "Generator_TempBear2",
-            "timestamp": 1731935933064,
+            "timestamp": 1731958053500,
             "unit": "C",
-            "value": 28.9
+            "value": 13.3
         },
         {
             "id": 10000601,
@@ -25940,7 +25940,7 @@
         {
             "id": 10051003,
             "name": "CtrModule_Ctr24_Error",
-            "timestamp": 1731925121475,
+            "timestamp": 1731957305870,
             "unit": "",
             "value": 0
         },
@@ -25960,7 +25960,7 @@
         {
             "id": 10008724,
             "name": "Knock_Valve_Noise_Cyl11",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -26034,9 +26034,9 @@
         {
             "id": 10050957,
             "name": "CtrModule_Ctr30_W",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 10050780,
@@ -26107,9 +26107,9 @@
         {
             "id": 10055813,
             "name": "opstate_icnt_netphours",
-            "timestamp": 1731917996756,
+            "timestamp": 1731953326858,
             "unit": "h",
-            "value": 2410
+            "value": 2412
         },
         {
             "id": 10008256,
@@ -26250,7 +26250,7 @@
         {
             "id": 208,
             "name": "Knock_KLS98_IntKnock_Cyl23",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -26329,7 +26329,7 @@
         {
             "id": 10044860,
             "name": "emission_rhum_catout",
-            "timestamp": 1731919539431,
+            "timestamp": 1731956861489,
             "unit": "%",
             "value": 0
         },
@@ -26343,7 +26343,7 @@
         {
             "id": 133,
             "name": "Knock_KLS98_IntKnock_Cyl01",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -26418,9 +26418,9 @@
         {
             "id": 47,
             "name": "CtrMixTemp_X",
-            "timestamp": 1731935954985,
+            "timestamp": 1731958072466,
             "unit": "C",
-            "value": 58.6
+            "value": 59.6
         },
         {
             "id": 18701,
@@ -26458,9 +26458,9 @@
         {
             "id": 10049865,
             "name": "auxiliariesgeneral_rpr_eof_diffmon",
-            "timestamp": 1731935934205,
+            "timestamp": 1731958071543,
             "unit": "bar",
-            "value": 0.05
+            "value": 0.2
         },
         {
             "id": 10001343,
@@ -26471,7 +26471,7 @@
         {
             "id": 10045521,
             "name": "out_ha_rf_mmd_synch1_1",
-            "timestamp": 1731919490906,
+            "timestamp": 1731956812742,
             "value": 0
         },
         {
@@ -26607,14 +26607,14 @@
         {
             "id": 10049220,
             "name": "safi_win3_10",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
         {
             "id": 20423,
             "name": "Gen2_ContGen",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "value": 1
         },
         {
@@ -26759,7 +26759,7 @@
         {
             "id": 16560,
             "name": "Knock_KLS98_Knock_Cyl14",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -26845,9 +26845,9 @@
         {
             "id": 10049825,
             "name": "exhaust_icnt_ophours_oxi",
-            "timestamp": 1731919136065,
+            "timestamp": 1731954395184,
             "unit": "h",
-            "value": 2421
+            "value": 2423
         },
         {
             "id": 10000414,
@@ -26914,7 +26914,7 @@
         {
             "id": 10050149,
             "name": "safi_iu_safi_win4_20",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -26963,7 +26963,7 @@
         {
             "id": 102,
             "name": "Power_PowerAct",
-            "timestamp": 1731919457998,
+            "timestamp": 1731956779631,
             "unit": "kW",
             "value": 0
         },
@@ -27015,9 +27015,9 @@
         {
             "id": 31,
             "name": "Exhaust_TempCyl06",
-            "timestamp": 1731935961016,
+            "timestamp": 1731958069036,
             "unit": "°C",
-            "value": 61
+            "value": 223
         },
         {
             "id": 10008803,
@@ -27094,8 +27094,8 @@
         {
             "id": 10049876,
             "name": "gastrain_icnt_gas_opm3",
-            "timestamp": 1731919560449,
-            "value": 2207068
+            "timestamp": 1731957030636,
+            "value": 2209194
         },
         {
             "id": 10002508,
@@ -27107,16 +27107,16 @@
         {
             "id": 96,
             "name": "Monic_VoltCyl13",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
         {
             "id": 69,
             "name": "Hyd_PressCoolWat",
-            "timestamp": 1731935288876,
+            "timestamp": 1731958063086,
             "unit": "bar",
-            "value": 2.02
+            "value": 2.13
         },
         {
             "id": 10000181,
@@ -27215,9 +27215,9 @@
         {
             "id": 162,
             "name": "Ignition_SAFI_ElectTemp2",
-            "timestamp": 1731935819097,
+            "timestamp": 1731958019496,
             "unit": "C",
-            "value": 63
+            "value": 55.2
         },
         {
             "id": 10008883,
@@ -27261,14 +27261,14 @@
         {
             "id": 16575,
             "name": "TecJet_GasPress1",
-            "timestamp": 1731935961716,
+            "timestamp": 1731958072465,
             "unit": "mbar",
             "value": 990
         },
         {
             "id": 10049325,
             "name": "p_unred",
-            "timestamp": 1731935961419,
+            "timestamp": 1731958070853,
             "unit": "kW",
             "value": 4489
         },
@@ -27393,14 +27393,14 @@
         {
             "id": 191,
             "name": "Exhaust_TempCyl23",
-            "timestamp": 1731935960815,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 62
+            "value": 207
         },
         {
             "id": 10050142,
             "name": "safi_iu_safi_win4_13",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -27428,9 +27428,9 @@
         {
             "id": 16609,
             "name": "Ignition_ITPCyl19",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10054849,
@@ -27601,7 +27601,7 @@
         {
             "id": 151,
             "name": "Knock_KLS98_IntKnock_Cyl02",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -27733,9 +27733,9 @@
         {
             "id": 16612,
             "name": "Ignition_ITPCyl22",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 17469,
@@ -27747,7 +27747,7 @@
         {
             "id": 19080,
             "name": "Exhaust_TCSpeedB",
-            "timestamp": 1731919516328,
+            "timestamp": 1731956838065,
             "unit": "1000/min",
             "value": 0
         },
@@ -27792,7 +27792,7 @@
         {
             "id": 95,
             "name": "Monic_VoltCyl12",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -27918,9 +27918,9 @@
         {
             "id": 190,
             "name": "Exhaust_TempCyl21",
-            "timestamp": 1731935954382,
+            "timestamp": 1731958071055,
             "unit": "°C",
-            "value": 61
+            "value": 207
         },
         {
             "id": 19182,
@@ -28058,14 +28058,14 @@
         {
             "id": 58,
             "name": "Generator_TempBear1",
-            "timestamp": 1731935744184,
+            "timestamp": 1731957450966,
             "unit": "C",
-            "value": 34.8
+            "value": 28.2
         },
         {
             "id": 145,
             "name": "Knock_KLS98_IntKnock_Cyl04",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -28085,7 +28085,7 @@
         {
             "id": 10008723,
             "name": "Knock_Valve_Noise_Cyl10",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -28199,9 +28199,9 @@
         {
             "id": 10047711,
             "name": "halio_ru_bus_l2_3",
-            "timestamp": 1731935961229,
+            "timestamp": 1731958071543,
             "unit": "V",
-            "value": 10760
+            "value": 10713
         },
         {
             "id": 10056119,
@@ -28220,7 +28220,7 @@
         {
             "id": 10008725,
             "name": "Knock_Valve_Noise_Cyl17",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -28395,7 +28395,7 @@
         {
             "id": 10008720,
             "name": "Knock_Valve_Noise_Cyl07",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -28542,7 +28542,7 @@
         {
             "id": 10050128,
             "name": "safi_iu_safi_win3_23",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -28583,7 +28583,7 @@
         {
             "id": 10008731,
             "name": "Knock_Valve_Noise_Cyl21",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -28649,7 +28649,7 @@
         {
             "id": 10049219,
             "name": "safi_win3_9",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -28800,9 +28800,9 @@
         {
             "id": 64,
             "name": "Generator_TempWind2",
-            "timestamp": 1731935548157,
+            "timestamp": 1731958039579,
             "unit": "C",
-            "value": 39
+            "value": 50.2
         },
         {
             "id": 10008919,
@@ -28840,8 +28840,8 @@
         {
             "id": 225,
             "name": "Hyd_OilCount_Trend_ActiveEnergy",
-            "timestamp": 1731865820328,
-            "value": 11947
+            "timestamp": 1731952735859,
+            "value": 14812
         },
         {
             "id": 10000333,
@@ -28990,7 +28990,7 @@
         {
             "id": 10050153,
             "name": "safi_iu_safi_win4_24",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -29169,9 +29169,9 @@
         {
             "id": 16606,
             "name": "Ignition_ITPCyl16",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10009067,
@@ -29251,7 +29251,7 @@
         {
             "id": 203,
             "name": "Monic_VoltCyl21",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956838873,
             "unit": "kV",
             "value": 0
         },
@@ -29482,8 +29482,8 @@
         {
             "id": 10049594,
             "name": "systeminfo_diskwriteperformance",
-            "timestamp": 1731935962043,
-            "value": 5.632
+            "timestamp": 1731958072591,
+            "value": 7.68
         },
         {
             "id": 10008831,
@@ -29649,7 +29649,7 @@
         {
             "id": 10049248,
             "name": "safi_win4_14",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -29717,8 +29717,8 @@
         {
             "id": 115,
             "name": "CtrModule_Ctr12_X",
-            "timestamp": 1731935919354,
-            "value": 39.1
+            "timestamp": 1731958069239,
+            "value": 38.1
         },
         {
             "id": 10054918,
@@ -29962,9 +29962,9 @@
         {
             "id": 10050968,
             "name": "CtrModule_Ctr23_X",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 19122,
@@ -29989,7 +29989,7 @@
         {
             "id": 10049233,
             "name": "safi_win3_23",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -30003,9 +30003,9 @@
         {
             "id": 195,
             "name": "Ignition_SAFI_ElectTemp12",
-            "timestamp": 1731935929203,
+            "timestamp": 1731958069541,
             "unit": "C",
-            "value": 61.3
+            "value": 61.8
         },
         {
             "id": 10008301,
@@ -30246,8 +30246,8 @@
         {
             "id": 10008976,
             "name": "CMU_rDPr_Ch_HPCooler",
-            "timestamp": 1731935962427,
-            "value": 4
+            "timestamp": 1731958066009,
+            "value": 10
         },
         {
             "id": 18760,
@@ -30461,7 +30461,7 @@
         {
             "id": 16569,
             "name": "Knock_KLS98_Knock_Cyl23",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -30596,7 +30596,7 @@
         {
             "id": 10050960,
             "name": "CtrModule_Ctr33_W",
-            "timestamp": 1731919454228,
+            "timestamp": 1731956775901,
             "unit": "",
             "value": 0
         },
@@ -30740,9 +30740,9 @@
         {
             "id": 16597,
             "name": "Ignition_ITPCyl07",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10009056,
@@ -30753,7 +30753,7 @@
         {
             "id": 10049212,
             "name": "safi_win3_2",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -30787,7 +30787,7 @@
         {
             "id": 10049255,
             "name": "safi_win4_21",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -30807,7 +30807,7 @@
         {
             "id": 10050150,
             "name": "safi_iu_safi_win4_21",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -30871,9 +30871,9 @@
         {
             "id": 10050971,
             "name": "CtrModule_Ctr26_X",
-            "timestamp": 1731933727040,
+            "timestamp": 1731958060769,
             "unit": "",
-            "value": 35.2
+            "value": 27.9
         },
         {
             "id": 16666,
@@ -31127,9 +31127,9 @@
         {
             "id": 16591,
             "name": "Ignition_ITPCyl01",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10055156,
@@ -31148,9 +31148,9 @@
         {
             "id": 27,
             "name": "Exhaust_TempCyl02",
-            "timestamp": 1731935962427,
+            "timestamp": 1731958072264,
             "unit": "°C",
-            "value": 57
+            "value": 209
         },
         {
             "id": 10000528,
@@ -31202,9 +31202,9 @@
         {
             "id": 16605,
             "name": "Ignition_ITPCyl15",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10049905,
@@ -31270,7 +31270,7 @@
         {
             "id": 16564,
             "name": "Knock_KLS98_Knock_Cyl18",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837561,
             "unit": "mV",
             "value": 0
         },
@@ -31427,9 +31427,9 @@
         {
             "id": 70,
             "name": "Hyd_TempCoolWat",
-            "timestamp": 1731935954583,
+            "timestamp": 1731958027081,
             "unit": "C",
-            "value": 59.7
+            "value": 76.5
         },
         {
             "id": 10008853,
@@ -31561,8 +31561,8 @@
         {
             "id": 20252,
             "name": "Ignition_SAFI_OpHours9",
-            "timestamp": 1731919294206,
-            "value": 2780.6
+            "timestamp": 1731956614253,
+            "value": 2783.1
         },
         {
             "id": 10001361,
@@ -31677,8 +31677,8 @@
         {
             "id": 10009023,
             "name": "rHours_SinceStart",
-            "timestamp": 1731919188150,
-            "value": 1.2
+            "timestamp": 1731956713427,
+            "value": 0.4
         },
         {
             "id": 10000482,
@@ -31742,9 +31742,9 @@
         {
             "id": 16602,
             "name": "Ignition_ITPCyl12",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 17715,
@@ -32006,7 +32006,7 @@
         {
             "id": 86,
             "name": "Monic_VoltCyl06",
-            "timestamp": 1731919515724,
+            "timestamp": 1731956838873,
             "unit": "kV",
             "value": 0
         },
@@ -32126,9 +32126,9 @@
         {
             "id": 38,
             "name": "Exhaust_TempCyl13",
-            "timestamp": 1731935958600,
+            "timestamp": 1731958070651,
             "unit": "°C",
-            "value": 58
+            "value": 188
         },
         {
             "id": 10055024,
@@ -32160,7 +32160,7 @@
         {
             "id": 10049244,
             "name": "safi_win4_10",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -32186,7 +32186,7 @@
         {
             "id": 10053283,
             "name": "halio_ri_l3_1",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "unit": "A",
             "value": 0
         },
@@ -32302,7 +32302,7 @@
         {
             "id": 10050112,
             "name": "safi_iu_safi_win3_7",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -32417,7 +32417,7 @@
         {
             "id": 10050131,
             "name": "safi_iu_safi_win4_2",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -32469,7 +32469,7 @@
         {
             "id": 10008714,
             "name": "Knock_Valve_Noise_Cyl02",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -32534,16 +32534,16 @@
         {
             "id": 10049237,
             "name": "safi_win4_3",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
         {
             "id": 81,
             "name": "Various_Values_TempMixture",
-            "timestamp": 1731935954985,
+            "timestamp": 1731958072264,
             "unit": "C",
-            "value": 58.6
+            "value": 59.6
         },
         {
             "id": 10053522,
@@ -32732,9 +32732,9 @@
         {
             "id": 167,
             "name": "Ignition_SAFI_ElectTemp8",
-            "timestamp": 1731935909183,
+            "timestamp": 1731958049523,
             "unit": "C",
-            "value": 61.3
+            "value": 63.7
         },
         {
             "id": 17800,
@@ -33036,9 +33036,9 @@
         {
             "id": 20074,
             "name": "CMU_rPr_Ch_P2LP",
-            "timestamp": 1731921406637,
+            "timestamp": 1731956850977,
             "unit": "bar",
-            "value": 1
+            "value": 0.99
         },
         {
             "id": 19193,
@@ -33084,8 +33084,8 @@
         {
             "id": 10009008,
             "name": "rTi_Load_0",
-            "timestamp": 1731914767866,
-            "value": 153
+            "timestamp": 1731955212278,
+            "value": 159
         },
         {
             "id": 18734,
@@ -33400,8 +33400,8 @@
         {
             "id": 10046364,
             "name": "Count_Maintenance6",
-            "timestamp": 1731919133061,
-            "value": 597580
+            "timestamp": 1731954391180,
+            "value": 597578
         },
         {
             "id": 10049357,
@@ -33565,7 +33565,7 @@
         {
             "id": 10049251,
             "name": "safi_win4_17",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -33679,9 +33679,9 @@
         {
             "id": 10050975,
             "name": "CtrModule_Ctr30_X",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 19217,
@@ -33839,8 +33839,8 @@
         {
             "id": 20255,
             "name": "Ignition_SAFI_OpHours12",
-            "timestamp": 1731919309220,
-            "value": 2780.5
+            "timestamp": 1731956629268,
+            "value": 2783
         },
         {
             "id": 19160,
@@ -34059,7 +34059,7 @@
         {
             "id": 998,
             "name": "Various_EngineStatus",
-            "timestamp": 1731919584469,
+            "timestamp": 1731956906527,
             "value": 5
         },
         {
@@ -34086,9 +34086,9 @@
         {
             "id": 16595,
             "name": "Ignition_ITPCyl05",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10008931,
@@ -34233,7 +34233,7 @@
         {
             "id": 10050123,
             "name": "safi_iu_safi_win3_18",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -34323,7 +34323,7 @@
         {
             "id": 20285,
             "name": "Aux_GasRail_rPr_sp",
-            "timestamp": 1731919464361,
+            "timestamp": 1731956786417,
             "value": 0
         },
         {
@@ -34455,9 +34455,9 @@
         {
             "id": 160,
             "name": "Count_Maintenance4",
-            "timestamp": 1731919133061,
+            "timestamp": 1731954391180,
             "unit": "h",
-            "value": 27705
+            "value": 27703
         },
         {
             "id": 18339,
@@ -34555,23 +34555,23 @@
         {
             "id": 118,
             "name": "Monic_VoltCyl17",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
         {
             "id": 10049311,
             "name": "p_reddelta_t_inairer_norm",
-            "timestamp": 1731935315117,
+            "timestamp": 1731937168808,
             "unit": "%",
-            "value": 0.5
+            "value": 0
         },
         {
             "id": 10051013,
             "name": "CtrModule_Ctr34_Error",
-            "timestamp": 1731935949219,
+            "timestamp": 1731957981460,
             "unit": "",
-            "value": -29.8
+            "value": -25
         },
         {
             "id": 10001504,
@@ -34597,7 +34597,7 @@
         {
             "id": 10049245,
             "name": "safi_win4_11",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -34757,7 +34757,7 @@
         {
             "id": 171,
             "name": "Knock_KLS98_IntKnock_Cyl17",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -34783,7 +34783,7 @@
         {
             "id": 10050145,
             "name": "safi_iu_safi_win4_16",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -34803,9 +34803,9 @@
         {
             "id": 165,
             "name": "Ignition_SAFI_ElectTemp5",
-            "timestamp": 1731935954225,
+            "timestamp": 1731958034512,
             "unit": "C",
-            "value": 63.2
+            "value": 59.1
         },
         {
             "id": 10000721,
@@ -34829,7 +34829,7 @@
         {
             "id": 19096,
             "name": "Various_Values_SetPosThrottleA1",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 1.9
         },
@@ -34849,7 +34849,7 @@
         {
             "id": 10009076,
             "name": "CMU_rPr_a_BbFilt",
-            "timestamp": 1731930452283,
+            "timestamp": 1731957207786,
             "unit": "mbar",
             "value": 0
         },
@@ -34909,7 +34909,7 @@
         {
             "id": 10049224,
             "name": "safi_win3_14",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -34975,9 +34975,9 @@
         {
             "id": 10050950,
             "name": "CtrModule_Ctr23_W",
-            "timestamp": 1731935919354,
+            "timestamp": 1731958069239,
             "unit": "",
-            "value": 39.1
+            "value": 38.1
         },
         {
             "id": 10053542,
@@ -35057,9 +35057,9 @@
         {
             "id": 16585,
             "name": "Various_Values_PosTurboBypassB1",
-            "timestamp": 1731935962523,
+            "timestamp": 1731958072465,
             "unit": "%",
-            "value": 0.6
+            "value": 0.5
         },
         {
             "id": 10001106,
@@ -35176,7 +35176,7 @@
         {
             "id": 10049240,
             "name": "safi_win4_6",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -35363,14 +35363,14 @@
         {
             "id": 16552,
             "name": "Knock_KLS98_Knock_Cyl06",
-            "timestamp": 1731919515421,
+            "timestamp": 1731956837259,
             "unit": "mV",
             "value": 0
         },
         {
             "id": 92,
             "name": "Monic_VoltCyl09",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -35625,7 +35625,7 @@
         {
             "id": 10049221,
             "name": "safi_win3_11",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -35829,7 +35829,7 @@
         {
             "id": 10050106,
             "name": "safi_iu_safi_win3_1",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -35920,7 +35920,7 @@
         {
             "id": 10049239,
             "name": "safi_win4_5",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -35994,8 +35994,8 @@
         {
             "id": 10009021,
             "name": "rTi_Sync_1",
-            "timestamp": 1731779767390,
-            "value": 9
+            "timestamp": 1731955212278,
+            "value": 8
         },
         {
             "id": 10001286,
@@ -36105,7 +36105,7 @@
         {
             "id": 10008734,
             "name": "Knock_Valve_Noise_Cyl20",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -36126,7 +36126,7 @@
         {
             "id": 10049218,
             "name": "safi_win3_8",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -36250,14 +36250,14 @@
         {
             "id": 101,
             "name": "Monic_VoltMin",
-            "timestamp": 1731919515724,
+            "timestamp": 1731956838066,
             "unit": "kV",
             "value": 0
         },
         {
             "id": 16574,
             "name": "TecJet_GasFlow1",
-            "timestamp": 1731919464753,
+            "timestamp": 1731956786187,
             "unit": "l/s",
             "value": 0
         },
@@ -36425,9 +36425,9 @@
         {
             "id": 194,
             "name": "Exhaust_TempCyl24",
-            "timestamp": 1731935931253,
+            "timestamp": 1731958060769,
             "unit": "°C",
-            "value": 63
+            "value": 221
         },
         {
             "id": 18344,
@@ -36452,7 +36452,7 @@
         {
             "id": 10049228,
             "name": "safi_win3_18",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -36532,7 +36532,7 @@
         {
             "id": 10051002,
             "name": "CtrModule_Ctr23_Error",
-            "timestamp": 1731925121475,
+            "timestamp": 1731957305870,
             "unit": "",
             "value": 0
         },
@@ -36812,7 +36812,7 @@
         {
             "id": 10050980,
             "name": "CtrModule_Ctr1_Error",
-            "timestamp": 1731919816666,
+            "timestamp": 1731957138729,
             "unit": "",
             "value": 0
         },
@@ -36923,7 +36923,7 @@
         {
             "id": 10049256,
             "name": "safi_win4_22",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -36951,7 +36951,7 @@
         {
             "id": 10008983,
             "name": "bLoad",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "value": 0
         },
         {
@@ -36999,8 +36999,8 @@
         {
             "id": 20199,
             "name": "Ignition_SAFI_OpHours5",
-            "timestamp": 1731919334243,
-            "value": 2780.5
+            "timestamp": 1731956654287,
+            "value": 2783
         },
         {
             "id": 10054461,
@@ -37056,15 +37056,15 @@
         {
             "id": 183,
             "name": "Various_Bits_GenSwitchOn",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "value": 0
         },
         {
             "id": 30,
             "name": "Exhaust_TempCyl05",
-            "timestamp": 1731935958600,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 60
+            "value": 215
         },
         {
             "id": 10008470,
@@ -37210,7 +37210,7 @@
         {
             "id": 10008736,
             "name": "Knock_Valve_Noise_Cyl22",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -37237,7 +37237,7 @@
         {
             "id": 143,
             "name": "Power_SetPower",
-            "timestamp": 1731919454228,
+            "timestamp": 1731956775901,
             "unit": "kW",
             "value": 0
         },
@@ -37250,7 +37250,7 @@
         {
             "id": 16548,
             "name": "Knock_KLS98_Knock_Cyl02",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837662,
             "unit": "mV",
             "value": 0
         },
@@ -37277,13 +37277,13 @@
         {
             "id": 10009071,
             "name": "SlowDownTime10",
-            "timestamp": 1730972707311,
-            "value": 51
+            "timestamp": 1731949568628,
+            "value": 52
         },
         {
             "id": 97,
             "name": "Monic_VoltCyl14",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956837865,
             "unit": "kV",
             "value": 0
         },
@@ -37317,7 +37317,7 @@
         {
             "id": 10009010,
             "name": "rTi_Prep_0",
-            "timestamp": 1731914767866,
+            "timestamp": 1731955212278,
             "value": 88
         },
         {
@@ -37369,7 +37369,7 @@
         {
             "id": 10050134,
             "name": "safi_iu_safi_win4_5",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -37389,7 +37389,7 @@
         {
             "id": 10008980,
             "name": "CMU_rDPr_AirFilt_A",
-            "timestamp": 1731919460455,
+            "timestamp": 1731956782152,
             "unit": "mbar",
             "value": -0.7
         },
@@ -37416,8 +37416,8 @@
         {
             "id": 179,
             "name": "Count_Start",
-            "timestamp": 1731914867116,
-            "value": 1300
+            "timestamp": 1731955272794,
+            "value": 1304
         },
         {
             "id": 20227,
@@ -37443,7 +37443,7 @@
         {
             "id": 218,
             "name": "Knock_KLS98_IntKnock_Cyl24",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -37470,14 +37470,14 @@
         {
             "id": 10050117,
             "name": "safi_iu_safi_win3_12",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
         {
             "id": 114,
             "name": "CtrModule_Ctr10_Y",
-            "timestamp": 1731919816641,
+            "timestamp": 1731957138282,
             "unit": "%",
             "value": 100
         },
@@ -37723,7 +37723,7 @@
         {
             "id": 16559,
             "name": "Knock_KLS98_Knock_Cyl13",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -37737,9 +37737,9 @@
         {
             "id": 10050979,
             "name": "CtrModule_Ctr34_X",
-            "timestamp": 1731935948560,
+            "timestamp": 1731957980677,
             "unit": "",
-            "value": 45.1
+            "value": 49.9
         },
         {
             "id": 10000894,
@@ -37818,8 +37818,8 @@
         {
             "id": 222,
             "name": "CtrModule_Ctr1_W",
-            "timestamp": 1731935687276,
-            "value": 35.7
+            "timestamp": 1731958050271,
+            "value": 23.6
         },
         {
             "id": 10055004,
@@ -37850,9 +37850,9 @@
         {
             "id": 10050949,
             "name": "CtrModule_Ctr22_W",
-            "timestamp": 1731935660433,
+            "timestamp": 1731958068028,
             "unit": "",
-            "value": 37.4
+            "value": 74.6
         },
         {
             "id": 10000844,
@@ -37863,7 +37863,7 @@
         {
             "id": 10050139,
             "name": "safi_iu_safi_win4_10",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -37949,7 +37949,7 @@
         {
             "id": 10049234,
             "name": "safi_win3_24",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -37976,8 +37976,8 @@
         {
             "id": 10049326,
             "name": "bp_red_active",
-            "timestamp": 1731935043755,
-            "value": 1
+            "timestamp": 1731937131281,
+            "value": 0
         },
         {
             "id": 10044292,
@@ -38043,7 +38043,7 @@
         {
             "id": 10050109,
             "name": "safi_iu_safi_win3_4",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -38090,16 +38090,16 @@
         {
             "id": 16611,
             "name": "Ignition_ITPCyl21",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 16584,
             "name": "Various_Values_PosTurboBypassA1",
-            "timestamp": 1731935919152,
+            "timestamp": 1731958072465,
             "unit": "%",
-            "value": 0
+            "value": 0.4
         },
         {
             "id": 10054712,
@@ -38178,7 +38178,7 @@
         {
             "id": 207,
             "name": "Knock_KLS98_IntKnock_Cyl21",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -38432,7 +38432,7 @@
         {
             "id": 10056141,
             "name": "chargingunit_rpr_ch_p2s_uf",
-            "timestamp": 1731935962422,
+            "timestamp": 1731958065504,
             "unit": "bar",
             "value": 1
         },
@@ -38464,9 +38464,9 @@
         {
             "id": 29,
             "name": "Exhaust_TempCyl04",
-            "timestamp": 1731935959606,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 58
+            "value": 204
         },
         {
             "id": 10055091,
@@ -38485,7 +38485,7 @@
         {
             "id": 10009049,
             "name": "rP_Ramp_Set",
-            "timestamp": 1731915045259,
+            "timestamp": 1731955488916,
             "value": 0.72
         },
         {
@@ -38566,9 +38566,9 @@
         {
             "id": 41,
             "name": "Exhaust_TempCyl14",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072062,
             "unit": "°C",
-            "value": 59
+            "value": 209
         },
         {
             "id": 18639,
@@ -38587,7 +38587,7 @@
         {
             "id": 10051925,
             "name": "enginecontroller_bleanox_active",
-            "timestamp": 1731919454228,
+            "timestamp": 1731956775901,
             "value": 0
         },
         {
@@ -38709,9 +38709,9 @@
         {
             "id": 10049604,
             "name": "systeminfo_internaldrive_poweronhours",
-            "timestamp": 1731931916566,
+            "timestamp": 1731948899107,
             "unit": "h",
-            "value": 6100
+            "value": 6101
         },
         {
             "id": 10054923,
@@ -38825,9 +38825,9 @@
         {
             "id": 10051005,
             "name": "CtrModule_Ctr26_Error",
-            "timestamp": 1731933727198,
+            "timestamp": 1731957416974,
             "unit": "",
-            "value": 5.2
+            "value": 0
         },
         {
             "id": 18430,
@@ -38846,7 +38846,7 @@
         {
             "id": 10050997,
             "name": "CtrModule_Ctr18_Error",
-            "timestamp": 1731919371277,
+            "timestamp": 1731956694327,
             "unit": "",
             "value": 0
         },
@@ -38944,7 +38944,7 @@
         {
             "id": 10047723,
             "name": "halio_rf_mmd",
-            "timestamp": 1731919490705,
+            "timestamp": 1731956812132,
             "unit": "Hz",
             "value": 0
         },
@@ -39074,7 +39074,7 @@
         {
             "id": 168,
             "name": "Knock_KLS98_IntKnock_Cyl06",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -39244,7 +39244,7 @@
         {
             "id": 10008730,
             "name": "Knock_Valve_Noise_Cyl16",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -39338,8 +39338,8 @@
         {
             "id": 10009011,
             "name": "rTi_Prep_2",
-            "timestamp": 1731915043747,
-            "value": 99
+            "timestamp": 1731955487911,
+            "value": 61
         },
         {
             "id": 10001152,
@@ -39468,9 +39468,9 @@
         {
             "id": 63,
             "name": "Exhaust_TempCylMax",
-            "timestamp": 1731935959606,
+            "timestamp": 1731958069844,
             "unit": "°C",
-            "value": 64
+            "value": 223
         },
         {
             "id": 10000101,
@@ -39603,9 +39603,9 @@
         {
             "id": 10047714,
             "name": "halio_ru_bus_l2n",
-            "timestamp": 1731935961229,
+            "timestamp": 1731958071543,
             "unit": "V",
-            "value": 6222
+            "value": 6204
         },
         {
             "id": 10049902,
@@ -39848,7 +39848,7 @@
         {
             "id": 204,
             "name": "Monic_VoltCyl22",
-            "timestamp": 1731919516733,
+            "timestamp": 1731956838873,
             "unit": "kV",
             "value": 0
         },
@@ -39976,7 +39976,7 @@
         {
             "id": 10009051,
             "name": "rP_Targ_LastStart",
-            "timestamp": 1731914896563,
+            "timestamp": 1731955308605,
             "value": 4491
         },
         {
@@ -40006,7 +40006,7 @@
         {
             "id": 19090,
             "name": "Various_Values_SetPosTurboBypassB2",
-            "timestamp": 1731919515622,
+            "timestamp": 1731956837360,
             "unit": "%",
             "value": 0
         },
@@ -40142,9 +40142,9 @@
         {
             "id": 10050964,
             "name": "CtrModule_Ctr19_X",
-            "timestamp": 1731935660433,
+            "timestamp": 1731958068028,
             "unit": "",
-            "value": 37.4
+            "value": 74.6
         },
         {
             "id": 10008290,
@@ -40212,9 +40212,9 @@
         {
             "id": 20291,
             "name": "Aux_PreChambGasTrain_rPr_a_Filt",
-            "timestamp": 1731934538939,
+            "timestamp": 1731958047522,
             "unit": "bar",
-            "value": 7.51
+            "value": 7.25
         },
         {
             "id": 20639,
@@ -40232,7 +40232,7 @@
         {
             "id": 74,
             "name": "MMD_CurrAvg",
-            "timestamp": 1731919454163,
+            "timestamp": 1731956775796,
             "unit": "A",
             "value": 0
         },
@@ -40252,7 +40252,7 @@
         {
             "id": 10053284,
             "name": "halio_rang_mmd_diff_1",
-            "timestamp": 1731919490906,
+            "timestamp": 1731956812742,
             "unit": "°",
             "value": 180
         },
@@ -40326,7 +40326,7 @@
         {
             "id": 10050113,
             "name": "safi_iu_safi_win3_8",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -40340,8 +40340,8 @@
         {
             "id": 10009027,
             "name": "rT_EGaHPTC",
-            "timestamp": 1731935907540,
-            "value": 185
+            "timestamp": 1731958056830,
+            "value": 338
         },
         {
             "id": 20110,
@@ -40352,9 +40352,9 @@
         {
             "id": 10053552,
             "name": "auxiliariesgeneral_roc_energy_avg",
-            "timestamp": 1731865820954,
+            "timestamp": 1731952736591,
             "unit": "MWh",
-            "value": 13.736
+            "value": 13.77
         },
         {
             "id": 10050789,
@@ -40391,7 +40391,7 @@
         {
             "id": 10050130,
             "name": "safi_iu_safi_win4_1",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -40455,9 +40455,9 @@
         {
             "id": 226,
             "name": "Hyd_OilCount_Trend_AvgPower",
-            "timestamp": 1731865820328,
+            "timestamp": 1731952735859,
             "unit": "kW",
-            "value": 3982
+            "value": 4937
         },
         {
             "id": 10008449,
@@ -40671,16 +40671,16 @@
         {
             "id": 10049230,
             "name": "safi_win3_20",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
         {
             "id": 10047712,
             "name": "halio_ru_bus_l3_1",
-            "timestamp": 1731935961229,
+            "timestamp": 1731958070542,
             "unit": "V",
-            "value": 10784
+            "value": 10735
         },
         {
             "id": 18415,
@@ -40718,9 +40718,9 @@
         {
             "id": 10050998,
             "name": "CtrModule_Ctr19_Error",
-            "timestamp": 1731935660954,
+            "timestamp": 1731944173659,
             "unit": "",
-            "value": -12.5
+            "value": 0
         },
         {
             "id": 10044293,
@@ -40877,9 +40877,9 @@
         {
             "id": 10049514,
             "name": "emission_rnox_em_engout_set",
-            "timestamp": 1731935387700,
+            "timestamp": 1731958066536,
             "unit": "ppm",
-            "value": 96.4
+            "value": 89.1
         },
         {
             "id": 10045959,
@@ -40929,8 +40929,8 @@
         {
             "id": 20196,
             "name": "Ignition_SAFI_OpHours1",
-            "timestamp": 1731919314224,
-            "value": 2780.5
+            "timestamp": 1731956634273,
+            "value": 2783
         },
         {
             "id": 10008617,
@@ -40966,9 +40966,9 @@
         {
             "id": 52,
             "name": "Exhaust_TempCylAvg",
-            "timestamp": 1731935822655,
+            "timestamp": 1731958055923,
             "unit": "°C",
-            "value": 60
+            "value": 209
         },
         {
             "id": 10000397,
@@ -41111,7 +41111,7 @@
         {
             "id": 85,
             "name": "Monic_VoltCyl05",
-            "timestamp": 1731919515724,
+            "timestamp": 1731956838873,
             "unit": "kV",
             "value": 0
         },
@@ -41165,7 +41165,7 @@
         {
             "id": 172,
             "name": "Knock_KLS98_IntKnock_Cyl19",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -41708,9 +41708,9 @@
         {
             "id": 10050953,
             "name": "CtrModule_Ctr26_W",
-            "timestamp": 1731930692649,
+            "timestamp": 1731958060769,
             "unit": "",
-            "value": 30
+            "value": 27.9
         },
         {
             "id": 19291,
@@ -41808,7 +41808,7 @@
         {
             "id": 10050114,
             "name": "safi_iu_safi_win3_9",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -42048,7 +42048,7 @@
         {
             "id": 20289,
             "name": "Aux_PreChambGasTrain_rPr_sp",
-            "timestamp": 1731919464361,
+            "timestamp": 1731956786417,
             "unit": "bar",
             "value": 0
         },
@@ -42202,8 +42202,8 @@
         {
             "id": 10009016,
             "name": "rTi_Speedup_2",
-            "timestamp": 1731915043747,
-            "value": 29
+            "timestamp": 1731947745146,
+            "value": 25
         },
         {
             "id": 10055197,
@@ -42282,9 +42282,9 @@
         {
             "id": 10049863,
             "name": "auxiliariesgeneral_rpr_eo_diff_f",
-            "timestamp": 1731923669356,
+            "timestamp": 1731958072466,
             "unit": "bar",
-            "value": 0.04
+            "value": 0.23
         },
         {
             "id": 20377,
@@ -42336,7 +42336,7 @@
         {
             "id": 10008733,
             "name": "Knock_Valve_Noise_Cyl19",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -42357,7 +42357,7 @@
         {
             "id": 16551,
             "name": "Knock_KLS98_Knock_Cyl05",
-            "timestamp": 1731919515421,
+            "timestamp": 1731956837259,
             "unit": "mV",
             "value": 0
         },
@@ -42485,7 +42485,7 @@
         {
             "id": 10008718,
             "name": "Knock_Valve_Noise_Cyl06",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -42610,7 +42610,7 @@
         {
             "id": 10049213,
             "name": "safi_win3_3",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -42946,7 +42946,7 @@
         {
             "id": 10049241,
             "name": "safi_win4_7",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "°CA",
             "value": 0
         },
@@ -42973,7 +42973,7 @@
         {
             "id": 20068,
             "name": "CMU_rDPr_Ch_AirFilt",
-            "timestamp": 1731935960210,
+            "timestamp": 1731957580045,
             "unit": "mbar",
             "value": -0.6
         },
@@ -42987,8 +42987,8 @@
         {
             "id": 10009072,
             "name": "SlowDownTime11",
-            "timestamp": 1730925248308,
-            "value": 51
+            "timestamp": 1731945612025,
+            "value": 52
         },
         {
             "id": 10000765,
@@ -43007,8 +43007,8 @@
         {
             "id": 19106,
             "name": "CtrModule_Ctr16_W",
-            "timestamp": 1731923763180,
-            "value": 75
+            "timestamp": 1731958027081,
+            "value": 76.5
         },
         {
             "id": 10001329,
@@ -43060,7 +43060,7 @@
         {
             "id": 1258,
             "name": "OperationalCondition",
-            "timestamp": 1731919584469,
+            "timestamp": 1731956906527,
             "value": "Available"
         },
         {
@@ -43086,9 +43086,9 @@
         {
             "id": 28,
             "name": "Exhaust_TempCyl03",
-            "timestamp": 1731935962225,
+            "timestamp": 1731958072466,
             "unit": "°C",
-            "value": 59
+            "value": 203
         },
         {
             "id": 10049835,
@@ -43106,7 +43106,7 @@
         {
             "id": 16563,
             "name": "Knock_KLS98_Knock_Cyl17",
-            "timestamp": 1731919515824,
+            "timestamp": 1731956837461,
             "unit": "mV",
             "value": 0
         },
@@ -43139,9 +43139,9 @@
         {
             "id": 16604,
             "name": "Ignition_ITPCyl14",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10000141,
@@ -43172,7 +43172,7 @@
         {
             "id": 10050141,
             "name": "safi_iu_safi_win4_12",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -43285,9 +43285,9 @@
         {
             "id": 119,
             "name": "Ignition_SAFI_ElectTemp6",
-            "timestamp": 1731935959228,
+            "timestamp": 1731958039514,
             "unit": "C",
-            "value": 61.1
+            "value": 56.5
         },
         {
             "id": 17375,
@@ -43337,7 +43337,7 @@
         {
             "id": 10050991,
             "name": "CtrModule_Ctr12_Error",
-            "timestamp": 1731930371197,
+            "timestamp": 1731957305870,
             "unit": "",
             "value": 0
         },
@@ -43431,7 +43431,7 @@
         {
             "id": 16549,
             "name": "Knock_KLS98_Knock_Cyl03",
-            "timestamp": 1731919515723,
+            "timestamp": 1731956837360,
             "unit": "mV",
             "value": 0
         },
@@ -43472,7 +43472,7 @@
         {
             "id": 10008729,
             "name": "Knock_Valve_Noise_Cyl14",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -43486,7 +43486,7 @@
         {
             "id": 10050152,
             "name": "safi_iu_safi_win4_23",
-            "timestamp": 1731919516412,
+            "timestamp": 1731956837474,
             "unit": "mV",
             "value": 0
         },
@@ -43521,9 +43521,9 @@
         {
             "id": 161,
             "name": "Count_OpHour",
-            "timestamp": 1731919132708,
+            "timestamp": 1731954390900,
             "unit": "h",
-            "value": 2733
+            "value": 2735
         },
         {
             "id": 17337,
@@ -43581,7 +43581,7 @@
         {
             "id": 10044849,
             "name": "chargingunit_rvol_ch_engine_norm",
-            "timestamp": 1731919516513,
+            "timestamp": 1731956838472,
             "unit": "m3N/h",
             "value": 0
         },
@@ -43641,7 +43641,7 @@
         {
             "id": 136,
             "name": "Knock_KLS98_IntKnock_Cyl14",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
@@ -43654,9 +43654,9 @@
         {
             "id": 16601,
             "name": "Ignition_ITPCyl11",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 10055080,
@@ -43694,9 +43694,9 @@
         {
             "id": 157,
             "name": "Count_Maintenance1",
-            "timestamp": 1731919133061,
+            "timestamp": 1731954391180,
             "unit": "h",
-            "value": 1541
+            "value": 1539
         },
         {
             "id": 10044464,
@@ -43894,7 +43894,7 @@
         {
             "id": 10050994,
             "name": "CtrModule_Ctr15_Error",
-            "timestamp": 1731915057185,
+            "timestamp": 1731955384078,
             "unit": "",
             "value": 0
         },
@@ -43921,21 +43921,21 @@
         {
             "id": 16596,
             "name": "Ignition_ITPCyl06",
-            "timestamp": 1731919516532,
+            "timestamp": 1731956838269,
             "unit": "°KW",
-            "value": 8
+            "value": 14
         },
         {
             "id": 146,
             "name": "Knock_KLS98_IntKnock_Cyl05",
-            "timestamp": 1731919443261,
+            "timestamp": 1731956764896,
             "unit": "%",
             "value": 0
         },
         {
             "id": 10008722,
             "name": "Knock_Valve_Noise_Cyl09",
-            "timestamp": 1731919494390,
+            "timestamp": 1731956816455,
             "unit": "mV",
             "value": 0
         },
@@ -44010,9 +44010,9 @@
         {
             "id": 176,
             "name": "Ignition_SAFI_ElectTemp10",
-            "timestamp": 1731935919194,
+            "timestamp": 1731958059531,
             "unit": "C",
-            "value": 61.7
+            "value": 62.8
         },
         {
             "id": 10008429,
@@ -44334,28 +44334,28 @@
         {
             "id": 1000051,
             "name": "Exhaust_TempMaxSpread",
-            "timestamp": 1731919220114,
+            "timestamp": 1731955745649,
             "unit": "C",
             "value": 6
         },
         {
             "id": 1000050,
             "name": "Exhaust_TempCylMax_ss",
-            "timestamp": 1731919220111,
+            "timestamp": 1731955745645,
             "unit": "C",
             "value": 560
         },
         {
             "id": 1000049,
             "name": "Exhaust_TempCylMin_ss",
-            "timestamp": 1731919220108,
+            "timestamp": 1731955745639,
             "unit": "C",
             "value": 554
         },
         {
             "id": 1000048,
             "name": "Exhaust_TempCylAvg_ss",
-            "timestamp": 1731919220104,
+            "timestamp": 1731955745633,
             "unit": "C",
             "value": 557
         },
@@ -45349,9 +45349,9 @@
         {
             "id": 1001103,
             "name": "RMD_ListAvgOilPress_OilPressureLimit",
-            "timestamp": 1731866445437,
+            "timestamp": 1731956572826,
             "unit": "bar",
-            "value": 4.029999999999999
+            "value": 4.025999999999999
         },
         {
             "id": 1040015,
@@ -45363,9 +45363,9 @@
         {
             "id": 1001102,
             "name": "RMD_ListBuffMAvgOilDiffPress_OilDiffPress",
-            "timestamp": 1731918305904,
+            "timestamp": 1731951110609,
             "unit": "bar",
-            "value": 0.5650000000000001
+            "value": 0.5568181818181818
         },
         {
             "id": 1040014,
@@ -45377,7 +45377,7 @@
         {
             "id": 1001101,
             "name": "RMD_ListBuffMAvgOilConsume_OilConsumption",
-            "timestamp": 1731866004325,
+            "timestamp": 1731953600057,
             "unit": "g/kWh",
             "value": 0.013
         },
@@ -45391,9 +45391,9 @@
         {
             "id": 1001100,
             "name": "RMD_ListAvgCCP_CCPSensor",
-            "timestamp": 1731916994060,
+            "timestamp": 1731956643043,
             "unit": "mbar",
-            "value": -48.059999999999995
+            "value": -48.7
         },
         {
             "id": 1040012,
@@ -45783,7 +45783,7 @@
         {
             "id": 1040084,
             "name": "turbocharger_post_cooling_detection",
-            "timestamp": 1731782160000,
+            "timestamp": 1731945600000,
             "unit": "count",
             "value": 1
         },
@@ -45860,21 +45860,21 @@
         {
             "id": 1040117,
             "name": "Engine_Slowdown_Time_Detection",
-            "timestamp": 1731919457000,
+            "timestamp": 1731949518000,
             "unit": ".",
             "value": 0
         },
         {
             "id": 1040116,
             "name": "Engine_Slowdown_Time_Oil_Correction",
-            "timestamp": 1731919457000,
+            "timestamp": 1731949518000,
             "unit": ".",
             "value": 1
         },
         {
             "id": 1040115,
             "name": "Engine_Slowdown_Time_Monitoring_Sec",
-            "timestamp": 1731919457000,
+            "timestamp": 1731949518000,
             "unit": "sec",
             "value": 48
         },
@@ -45986,9 +45986,9 @@
         {
             "id": 1040172,
             "name": "turbocharger_post_cooling_v2_cumulative_counter",
-            "timestamp": 1731782160000,
+            "timestamp": 1731945600000,
             "unit": "count",
-            "value": 397
+            "value": 400
         },
         {
             "id": 1040166,
@@ -46028,16 +46028,16 @@
         {
             "id": 1040238,
             "name": "startup_counter",
-            "timestamp": 1731779872541,
+            "timestamp": 1731914902522,
             "unit": "count",
-            "value": 1342
+            "value": 1345
         },
         {
             "id": 1040237,
             "name": "shutdown_counter",
-            "timestamp": 1731782119251,
+            "timestamp": 1731919457998,
             "unit": "count",
-            "value": 1342
+            "value": 1345
         },
         {
             "id": 1040235,
@@ -46105,16 +46105,16 @@
         {
             "id": 1040305,
             "name": "oph_recorded",
-            "timestamp": 1731866400000,
+            "timestamp": 1731952800000,
             "unit": "h",
-            "value": 2757.6
+            "value": 2760.54
         },
         {
             "id": 1040304,
             "name": "energy_active_counter_recorded",
-            "timestamp": 1731866400000,
+            "timestamp": 1731952800000,
             "unit": "MWh",
-            "value": 12008.34
+            "value": 12020.96
         },
         {
             "id": 1040335,
@@ -46231,9 +46231,9 @@
         {
             "id": 1040360,
             "name": "Avg_Engine_Slowdown_Time_Monitoring_Sec",
-            "timestamp": 1731919815000,
+            "timestamp": 1731949876000,
             "unit": "sec",
-            "value": 47.8
+            "value": 47.9
         },
         {
             "id": 1040358,
@@ -46987,8 +46987,8 @@
     "serialNumber": "1486144",
     "status": {
         "activeConnection": false,
-        "lastContactDate": 1731935972297,
-        "lastDataFlowDate": 1731935972299
+        "lastContactDate": 1731958070433,
+        "lastDataFlowDate": 1731958082327
     },
     "timezone": "Europe/London"
 }
