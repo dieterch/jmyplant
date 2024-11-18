@@ -1,38 +1,25 @@
 import fs from 'fs';
 import path from 'path';
-import { MyPlant } from '../modules/MyPlant.mjs'; // Adjust the path if necessary
+import { MyPlant } from '../modules/myplant.mjs'; // Adjust the path if necessary
+import { assetData } from '../modules/asset.mjs'
 
 const main = async () => {
   try {
     // Initialize the MyPlant client
-    const myPlantClient = new MyPlant();
+    const mp = new MyPlant();
 
     // Log in to MyPlant
-    await myPlantClient.login();
+    await mp.login();
 
-    // Fetch asset data
-    //const serialNumber = 1486144;
-    //const assetData = await myPlantClient.assetData(serialNumber);
-    console.log(await myPlantClient.GQLSchema())
+    const serialNumber = 1486144
+    const data = await assetData(mp, serialNumber)
 
-    const assetId = 159396
-    const assetData = await myPlantClient.assetGQLData(assetId)
-
-    // Define the file path to save the JSON
     const outputDir = path.join(process.cwd(), 'output');
-    // const outputFile = path.join(outputDir, `assetData_${serialNumber}.json`);
-    const outputFile = path.join(outputDir, `assetData_${assetId}.json`);
-
-    // Ensure the output directory exists
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir);
-    }
-
+    const outputFile = path.join(outputDir, `assetData-${serialNumber}.json`);
     // Save the JSON data to the file
-    fs.writeFileSync(outputFile, JSON.stringify(assetData, null, 2), 'utf-8');
+    fs.writeFileSync(outputFile, JSON.stringify(data, null, 4), 'utf-8');
 
-    console.log(`Asset data saved to ${outputFile}`);
-    
+  
     // Exit the process explicitly
     process.exit(0);
   } catch (error) {

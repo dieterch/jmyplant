@@ -5,24 +5,24 @@
             "dataItems": [
                 {
                     "name": "OperationalCondition",
-                    "timestamp": 1731869665567,
+                    "timestamp": 1731919584469,
                     "id": 1258,
                     "unit": null,
                     "value": "Available"
                 },
                 {
                     "name": "Count_OpHour",
-                    "timestamp": 1731865721334,
+                    "timestamp": 1731919132708,
                     "id": 161,
                     "unit": "h",
-                    "value": 2731
+                    "value": 2733
                 },
                 {
                     "name": "Count_Start",
-                    "timestamp": 1731867630904,
+                    "timestamp": 1731914867116,
                     "id": 179,
                     "unit": null,
-                    "value": 1299
+                    "value": 1300
                 },
                 {
                     "name": "Power_PowerNominal",
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "rP_Ramp_Set",
-                    "timestamp": 1731867827826,
+                    "timestamp": 1731915045259,
                     "id": 10009049,
                     "unit": null,
                     "value": 0.72
@@ -108,8 +108,8 @@
                 }
             ],
             "status": {
-                "lastContactDate": 1731882992284,
-                "lastDataFlowDate": 1731882992286
+                "lastContactDate": 1731934400433,
+                "lastDataFlowDate": 1731934382288
             },
             "customer": {
                 "id": 4294976222,

@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "start": "node index.js",
-        "test": "echo \"No tests specified\" && exit 1"
+        "test": "jasmine"
     },
     "keywords": [],
     "author": "Your Name",
@@ -19,6 +19,9 @@
         "totp-generator": "^1.0.0"
     },
     "devDependencies": {
-        "eslint": "^8.51.0"
+        "eslint": "^8.51.0",
+        "jasmine": "^5.4.0",
+        "jasmine-core": "^5.4.0",
+        "nock": "^13.5.6"
     }
 }
