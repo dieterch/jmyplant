@@ -3,17 +3,60 @@ import path from 'path';
 
 const _reshape = (rec) => {
   const ret = {};
-  for (const [key, value] of Object.entries(rec)) {
+
+  Object.entries(rec).forEach(([key, value]) => {
     if (Array.isArray(value)) {
-      value.forEach(lrec => {
-        ret[lrec.name] = lrec.value ?? null;
-      });
+      // Use a `for` loop for faster iteration on arrays
+      for (let i = 0; i < value.length; i++) {
+        const lrec = value[i];
+        ret[lrec.name] = lrec.value ?? null; // Use nullish coalescing for efficiency
+      }
     } else {
       ret[key] = value;
     }
-  }
+  });
+
   return ret;
 };
+
+// Set of keys to skip if the value is an empty string
+const keysToSkipIfEmpty = new Set([
+  'Power_PowerNominal',
+  'Count_OpHour',
+  'Para_Speed_Nominal',
+]);
+
+// Transform each object to meet database requirements
+const _prepare = (obj) => {
+  const modifiedObj = {};
+
+  Object.entries(obj).forEach(([key, value]) => {
+    // Check if the key is a date field and convert to a Date object
+    if (key.toLowerCase().includes('date')) {
+      const date = new Date(value);
+      value = isNaN(date.getTime()) ? null : date; // Set to null if invalid
+    }
+
+    // Skip fields if the key is in the skip set and the value is an empty string
+    if (value === "" && keysToSkipIfEmpty.has(key)) return;
+
+    // Ensure `Module_Vers_HalIO` is a String or null
+    if (key === 'Module_Vers_HalIO') {
+      value = value?.toString() ?? null; // Convert to String or set to null if undefined/null
+    }
+
+    // Transform the key
+    const newKey = key === 'id'
+      ? 'assetId'
+      : key.replace(/[_ .]/g, '').replace(/^\w/, c => c.toLowerCase());
+
+    // Add the transformed key-value pair to the object
+    modifiedObj[newKey] = value;
+  });
+
+  return modifiedObj;
+};
+
 
 const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) => {
     let url = `/asset/` +
@@ -27,7 +70,12 @@ const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) =>
     }
   
     const res = await mp.fetchData(url);
-    return res.data.map(a => _reshape(a));
+    return { 'fleet': res.data.map(a => {
+                      const lrec = _reshape(a);
+                      return _prepare(lrec)
+                    }), 
+              // 'fleetraw': res.data
+            } ;
   }
   
   const fetchInstalledBase = async (mp, limit = null) => {
@@ -45,8 +93,8 @@ const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) =>
       'Power_PowerNominal', 'Para_Speed_Nominal'
     ];
   
-    const fleet = await _fetchInstalledBase(mp, fields, properties, dataItems, limit);
-    console.log(`${fleet.length} engines in Installed Base`)
+    const ret = await _fetchInstalledBase(mp, fields, properties, dataItems, limit);
+    console.log(`${ret['fleet'].length} engines in Installed Base`)
     
     // Define the file path to save the JSON
     const outputDir = path.join(process.cwd(), 'output');
@@ -57,11 +105,16 @@ const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) =>
     }
 
     // Save fleet to a file in JSON format
-    const filePath = path.join(outputDir, `installed-base.json`);
-    fs.writeFileSync(filePath, JSON.stringify(fleet, null, 2));
+    let filePath = path.join(outputDir, `installed-base.json`);
+    fs.writeFileSync(filePath, JSON.stringify(ret['fleet'], null, 2));
     console.log(`Fleet data saved to ${filePath}`);
+
+    // // Save fleet to a file in JSON format
+    // filePath = path.join(outputDir, `installed-base-raw.json`);
+    // fs.writeFileSync(filePath, JSON.stringify(ret['fleetraw'], null, 2));
+    // console.log(`Fleet Raw data saved to ${filePath}`);
     
-    return fleet;
+    return ret['fleet'];
   }
   
   export { fetchInstalledBase, _reshape };

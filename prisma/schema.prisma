@@ -21,26 +21,30 @@ datasource db {
 model Engine {
   id                        String     @id @default(uuid())
   assetId                   Int        @unique
-  countOpHour               Int
-  powerNominal              Int?
+  countOpHour               Int?
+  powerPowerNominal         Int?
   paraSpeedNominal          Int?
-  operationalCondition      String
-  shutdownCounter           Int
-  startupCounter            Int
-  startsOphRatio            Float
-  engineVersion             String
-  engineType                String
-  engineSeries              String
-  country                   String
-  commissioningDate         DateTime
-  designNumber              String
-  serialNumber              String @unique
+  operationalCondition      String?
+  shutdowncounter           Int?
+  startupcounter            Int?
+  startsophratio            Float?
+  engineVersion             String?
+  engineType                String?
+  engineSeries              String?
+  country                   String?
+  commissioningDate         DateTime?
+  designNumber              String?
+  serialNumber              String      @unique
   controlSystemType         String?
-  engineId                  String?
-  ibUnitCommissioningDate   DateTime?
-  ibNox                     String?
-  ibFrequency               String?
-  ibItemDescriptionEngine   String?
-  ibSiteName                String?
-  ibStatus                  String?
+  engineID                  String?
+  iBUnitCommissioningDate   DateTime?
+  iBNOX                     String?
+  iBFrequency               String?
+  iBItemDescriptionEngine   String?
+  iBSiteName                String?
+  iBStatus                  String?
+  moduleVersHalIO           String?
+  contractWarrantyStartDate DateTime?
+  contractWarrantyEndDate   DateTime?
+  productProgram            String?
 }
