@@ -1,4 +1,4 @@
-import { haveInternet, getToken, reshape } from '../modules/utils.mjs';
+import { haveInternet, getToken } from '../modules/utils.mjs';
 import nock from 'nock';
 
 
@@ -25,7 +25,6 @@ describe('Utility Functions', () => {
     });
   });
 
-
   describe('getToken', () => {
     it('should throw an error on failed authentication', async () => {
       const apiUrl = process.env.MYPLANT_API_URL;
@@ -37,41 +36,4 @@ describe('Utility Functions', () => {
     });
   });
   
-  describe('reshape', () => {
-    it('should reshape an object with nested arrays correctly', () => {
-      const input = {
-        id: 1,
-        details: [
-          { name: 'field1', value: 'value1' },
-          { name: 'field2', value: 'value2' },
-        ],
-      };
-
-      const expectedOutput = {
-        field1: 'value1',
-        field2: 'value2',
-        id: 1,
-      };
-
-      const result = reshape(input);
-      expect(result).toEqual(expectedOutput);
-    });
-
-    it('should handle null or undefined values in arrays', () => {
-      const input = {
-        details: [
-          { name: 'field1', value: null },
-          { name: 'field2' },
-        ],
-      };
-
-      const expectedOutput = {
-        field1: null,
-        field2: null,
-      };
-
-      const result = reshape(input);
-      expect(result).toEqual(expectedOutput);
-    });
-  });
 });

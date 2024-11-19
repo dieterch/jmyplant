@@ -53,18 +53,4 @@ const getToken = async () => {
   }
 };
 
-const reshape = (rec) => {
-  const ret = {};
-  for (const [key, value] of Object.entries(rec)) {
-    if (Array.isArray(value)) {
-      value.forEach(lrec => {
-        ret[lrec.name] = lrec.value ?? null;
-      });
-    } else {
-      ret[key] = value;
-    }
-  }
-  return ret;
-};
-
-export { haveInternet, getToken, reshape };
+export { haveInternet, getToken };

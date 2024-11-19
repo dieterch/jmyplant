@@ -1,6 +1,19 @@
 import fs from 'fs';
 import path from 'path';
-import { reshape } from './utils.mjs'
+
+const _reshape = (rec) => {
+  const ret = {};
+  for (const [key, value] of Object.entries(rec)) {
+    if (Array.isArray(value)) {
+      value.forEach(lrec => {
+        ret[lrec.name] = lrec.value ?? null;
+      });
+    } else {
+      ret[key] = value;
+    }
+  }
+  return ret;
+};
 
 const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) => {
     let url = `/asset/` +
@@ -14,7 +27,7 @@ const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) =>
     }
   
     const res = await mp.fetchData(url);
-    return res.data.map(a => reshape(a));
+    return res.data.map(a => _reshape(a));
   }
   
   const fetchInstalledBase = async (mp, limit = null) => {
@@ -51,4 +64,4 @@ const  _fetchInstalledBase = async (mp, fields, properties, dataItems, limit) =>
     return fleet;
   }
   
-  export { fetchInstalledBase };
+  export { fetchInstalledBase, _reshape };
