@@ -37,7 +37,7 @@ describe('Module Functions', () => {
 
     it('should throw an error if GraphQL query fails', async () => {
       const assetId = 'asset123';
-      const errorMessage = 'Failed to fetch asset GQL data';
+      const errorMessage = 'GQL data';
 
       mockMyPlant.fetchGQLData.and.throwError(errorMessage);
 
@@ -59,7 +59,7 @@ describe('Module Functions', () => {
     });
 
     it('should throw an error if schema fetching fails', async () => {
-      const errorMessage = 'Failed to fetch asset GQL schema';
+      const errorMessage = 'GQL schema';
 
       mockMyPlant.fetchGQLData.and.throwError(errorMessage);
 

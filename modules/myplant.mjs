@@ -130,7 +130,7 @@ class MyPlant {
         });
         return response.data;
       } catch (err) {
-        console.error(`Request failed: ${err}`);
+        // console.error(`${err}`);
         retries++;
         if (retries <= numRetries) {
           await new Promise((res) => setTimeout(res, 500));

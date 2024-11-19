@@ -50,7 +50,7 @@ const assetGQLData = async (mp, assetId) => {
     try {
       return await mp.fetchGQLData(query)
     } catch (error) {
-      console.error('Failed to fetch asset GQL data:', error.message);
+      // console.error('GQL data:', error.message);
       throw Error(`Failed to fetch GQL data from asset ${assetId}`)
     }
   }
@@ -73,7 +73,7 @@ const GQLSchema = async (mp) => {
     try {
       return await mp.fetchGQLData(query)
     } catch (error) {
-      console.error('Failed to fetch asset GQL schema:', error.message);
+      // console.error('GQL schema:', error.message);
       throw Error(`Failed to fetch GQL schema`)
     }
 }

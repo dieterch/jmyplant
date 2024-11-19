@@ -48,7 +48,7 @@ const getToken = async () => {
     // Extract and return the access token from the response
     return response.data.access_token;
   } catch (error) {
-    console.error('Error fetching token:', error.response ? error.response.data : error.message);
+    // console.error('Token:', error.response ? error.response.data : error.message);
     throw error;
   }
 };
